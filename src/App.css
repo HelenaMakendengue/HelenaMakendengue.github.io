@@ -52,6 +52,93 @@ a {
   width: 100%;
 }
 
+.section {
+  margin: 10px;
+  text-align: center;
+  border: 5px solid chartreuse;
+  border-radius: 15px;
+  border-width: thin;
+}
+
 .footer {
   text-align: center;
+}
+
+.landing-style {
+  margin: 5em;
+  text-align: center;
+  border: 5px solid chartreuse;
+  border-radius: 15px;
+  border-width: thin;
+}
+
+.about-section-holder {
+  margin: 1em;
+  text-align: center;
+  border: 5px solid chartreuse;
+  border-radius: 15px;
+  border-width: thin;
+  padding: 2em;
+}
+
+.about-style {
+  margin: 5em;
+  text-align: center;
+  border: 5px solid chartreuse;
+  border-radius: 15px;
+  border-width: thin;
+}
+
+.about-img {
+  text-align: center;
+  border: 5px solid chartreuse;
+  border-radius: 15px;
+  border-width: thin;
+  height: 25%;
+  width: 25%;
+}
+
+.contact-style {
+  margin: 5em;
+  text-align: center;
+  border: 5px solid chartreuse;
+  border-radius: 15px;
+  border-width: thin;
+}
+
+.contact-section-holder {
+  margin: 2em;
+  text-align: center;
+  border: 5px solid chartreuse;
+  border-radius: 15px;
+  border-width: thin;
+  padding: 2em;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  border: 5px solid chartreuse;
+  border-radius: 15px;
+  border-width: thin;
+  padding: 10px;
+  font-size: 50px;
+}
+
+.projects-style {
+  margin: 5em;
+  text-align: center;
+  border: 5px solid chartreuse;
+  border-radius: 15px;
+  border-width: thin;
+}
+
+.resume-style {
+  margin: 5em;
+  text-align: center;
+  border: 5px solid chartreuse;
+  border-radius: 15px;
+  border-width: thin;
 }

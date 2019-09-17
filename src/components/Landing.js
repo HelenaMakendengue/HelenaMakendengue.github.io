@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class Landing extends Component {
     render() {
         return (
-            <div>
-                <h1>Landing</h1>
+            <div className="landing-style">
+                <h1>Greetings & Salutations!</h1>
             </div>
         )
     }
