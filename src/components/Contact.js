@@ -7,6 +7,10 @@ class Contact extends Component {
                 <h1>Contact</h1>
                 <div className="contact-pane-holder">
                     <div className="social-media">
+                        {/* E-Mail */}
+                        <a href="mailto:helenamakens1013@gmail.com">
+                            <i className="fa fa-envelope-square" aria-hidden="true" />
+                        </a>
                         {/* LinkedIn */}
                         <a href="https://www.linkedin.com/in/helenahmakendengue/" target="_blank" rel="noopener noreferrer">
                             <i className="fa fa-linkedin-square" aria-hidden="true" />
