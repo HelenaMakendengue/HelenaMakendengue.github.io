@@ -10,6 +10,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
+import Error from './components/Error.js';
 
 const routing = (
     <Router>
@@ -20,6 +21,7 @@ const routing = (
             <Route path="/contact" component={Contact} />
             <Route path="/projects" component={Projects} />
             <Route path="/resume" component={Resume} />
+            <Route path="*" component={Error} />
         </Switch>
         <Footer/>
     </Router>

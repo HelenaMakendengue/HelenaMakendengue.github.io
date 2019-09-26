@@ -93,15 +93,6 @@ a {
   border-width: thin;
 }
 
-.about-img {
-  text-align: center;
-  border: 5px solid chartreuse;
-  border-radius: 15px;
-  border-width: thin;
-  height: 25%;
-  width: 25%;
-}
-
 .contact-style {
   margin: 5em;
   text-align: center;
@@ -140,6 +131,14 @@ a {
 }
 
 .resume-style {
+  margin: 5em;
+  text-align: center;
+  border: 5px solid chartreuse;
+  border-radius: 15px;
+  border-width: thin;
+}
+
+.error-style {
   margin: 5em;
   text-align: center;
   border: 5px solid chartreuse;
