@@ -1,44 +1,61 @@
-import React from "react";
-import { Route, Link } from "react-router-dom";
+import React, { Component } from 'react';
 
-function Projects({match}) {
+class Projects extends Component {
 
-    return (
-        <div className="projects-style">
-            <h2>Projects</h2>
-            <div className="navbar">
-                <ul>
-                    <li>
-                    <Link className="nav-link" to={`${match.url}/web`}>Web</Link>
-                    </li>
-                    <li>
-                    <Link className="nav-link" to={`${match.url}/mobile`}>Mobile</Link>
-                    </li>
-                    <li>
-                    <Link className="nav-link" to={`${match.url}/unity`}>Unity</Link>
-                    </li>
-                    <li>
-                    <Link className="nav-link" to={`${match.url}/misc`}>Misc.</Link>
-                    </li>
-                </ul>
+    render() {
+
+        const projects = [
+            {
+                title: "Leonardo",
+                description: "Leo",
+                image: "Katana",
+                type: "mobile",
+                link: "https://upload.wikimedia.org/wikipedia/en/e/ed/Leonardo_%28Teenage_Mutant_Ninja_Turtles%29.jpg"
+            },
+            {
+                title: "Leonardo",
+                description: "Leo",
+                image: "Katana",
+                type: "mobile",
+                link: "https://upload.wikimedia.org/wikipedia/en/e/ed/Leonardo_%28Teenage_Mutant_Ninja_Turtles%29.jpg"
+            },
+            {
+                title: "Leonardo",
+                description: "Leo",
+                image: "Katana",
+                type: "mobile",
+                link: "https://upload.wikimedia.org/wikipedia/en/e/ed/Leonardo_%28Teenage_Mutant_Ninja_Turtles%29.jpg"
+            },
+            {
+                title: "Leonardo",
+                description: "Leo",
+                image: "Katana",
+                type: "mobile",
+                link: "https://upload.wikimedia.org/wikipedia/en/e/ed/Leonardo_%28Teenage_Mutant_Ninja_Turtles%29.jpg"
+            }
+        ]
+
+        return (
+            <div className="content">
+                <div className="projects-style">
+                    <h1>Projects</h1>
+                    <hr/>
+                    <div>
+                        {projects.map(projects =>
+                            <div>
+                                <hr/>
+                                <h1>{projects.title} ({projects.description})</h1>
+                                <p>Project Type: {projects.type}</p>
+                                <img src={projects.link} alt={`${projects.title}`} width="200"/>
+                                <hr/>
+                            </div>
+                        )}
+                    </div>
+                </div>
             </div>
-    
-            <Route path={`${match.path}/:topicId`} component={Project} />
-            <Route exact path={match.path}
-                render={() => 
-                    <h3>Pick a project type.</h3>
-                }
-            />
-        </div>
-    );
+        )
+    }
 }
 
-function Project({ match }) {
-    return (
-      <div>
-        <h3>{match.params.topicId}</h3>
-      </div>
-    );
-  }
-
 export default Projects;
+
