@@ -10,13 +10,19 @@ class About extends Component {
                     <div className="about-holder">
                         <img src={aboutImg} alt="about-img"/>
                         <div className="about-text">
-                            <p>Howdy! My name is Helena.</p>
+                            <p>Howdy! I'm Helena.</p>
                             <br/>
-                            <p>I'm a 3rd Year CS Major @ Georgia Tech.</p>
+                            <p>3rd Year CS Major @ Georgia Tech</p>
                             <br/>
-                            <p>I'm the VP for the Women @ College of Computing.</p>
+                            <p>VP for the Women @ College of Computing</p>
                             <br/>
-                            <p>I'm a member of HackGT's Operations Team.</p>
+                            <p>Member of HackGT's Operations Team</p>
+                            <br/>
+                            <p>Former Software Engineering Intern @ Asurion</p>
+                            <br/>
+                            <p>Former Software Engineering Intern @ Asurion</p>
+                            <br/>
+                            <p>Former Software Engineering Intern @ Asurion</p>
                         </div>
                     </div>
                 </div>
