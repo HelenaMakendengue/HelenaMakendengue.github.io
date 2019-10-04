@@ -15,7 +15,7 @@ class Header extends Component {
               <Link to="/about" className="nav-link">About</Link>
             </li>
             <li>
-              <Link to="/resume" className="nav-link">Resume</Link>
+              <a className="nav-link" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/open?id=1GMfasFSOq4zL5nqkm0WiO4J-lQOkDjYc">Resume</a>
             </li>
             <li>
               <Link to="/projects" className="nav-link">Projects</Link>

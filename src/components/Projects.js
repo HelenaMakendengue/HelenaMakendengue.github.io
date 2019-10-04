@@ -40,17 +40,15 @@ class Projects extends Component {
                 <div className="projects-style">
                     <h1>Projects</h1>
                     <hr/>
-                    <div>
-                        {projects.map(projects =>
-                            <div>
-                                <hr/>
-                                <h1>{projects.title} ({projects.description})</h1>
-                                <p>Project Type: {projects.type}</p>
-                                <img src={projects.link} alt={`${projects.title}`} width="200"/>
-                                <hr/>
-                            </div>
-                        )}
-                    </div>
+                    {projects.map(projects =>
+                        <div>
+                            <hr/>
+                            <h3>{projects.title}</h3>
+                            <p>{projects.description}</p>
+                            <img src={projects.link} alt={`${projects.title}`} width="200"/>
+                            <hr/>
+                        </div>
+                    )}
                 </div>
             </div>
         )

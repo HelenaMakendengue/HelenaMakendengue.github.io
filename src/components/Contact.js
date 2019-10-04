@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import contactImg from '../assets/contact1.jpeg';
 
 class Contact extends Component {
     render() {
@@ -7,6 +8,7 @@ class Contact extends Component {
                 <div className="contact-style">
                     <h1>Contact</h1>
                     <div className="contact-holder">
+                        <img className="contact-img" src={contactImg} alt="contact-img"/>
                         <div className="social-media">
                             {/* E-Mail */}
                             <a href="mailto:helenamakens1013@gmail.com">

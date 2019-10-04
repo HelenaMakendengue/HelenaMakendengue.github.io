@@ -47,7 +47,7 @@ body {
   color:  chartreuse;
   font-family: 'Press Start 2P';
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .content {
@@ -64,6 +64,8 @@ body {
   background-color: black;
   position: relative;
   bottom: 0;
+  left: 0;
+  right: 0;
   width: 100%;
 }
 
@@ -75,8 +77,15 @@ br {
   margin: 10px;
 }
 
-img {
-  padding: 2em;
+.about-img {
+  padding: 1em;
+  width: 40%;
+  height: 100%;
+}
+
+.contact-img {
+  padding: 1em;
+  width: 98%;
 }
 
 .landing-style {
@@ -115,6 +124,11 @@ img {
   vertical-align: middle;
 }
 
+.contact-style h1 {
+  text-align: center;
+  margin-top: 2em;
+}
+
 .contact-style {
   margin: 5em;
   text-align: center;
@@ -124,12 +138,12 @@ img {
 }
 
 .contact-holder {
-  margin: 2em;
-  text-align: center;
-  border: 5px solid chartreuse;
-  border-radius: 15px;
-  border-width: thin;
+  margin: 1em;
   padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .social-media {
@@ -137,9 +151,6 @@ img {
   flex-direction: row;
   justify-content: space-evenly;
   text-align: center;
-  border: 5px solid chartreuse;
-  border-radius: 15px;
-  border-width: thin;
   padding: 10px;
   font-size: 50px;
 }
