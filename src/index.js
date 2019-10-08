@@ -9,18 +9,18 @@ import Landing from './components/Landing';
 import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
-import Resume from './components/Resume';
 import Error from './components/Error.js';
+import Rectangle from './components/Rectangle';
 
 const routing = (
     <Router>
         <Header/>
+        <Rectangle/>
         <Switch>
             <Route exact path="/" component={Landing} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route path="/projects" component={Projects} />
-            <Route path="/resume" component={Resume} />
             <Route path='*' component={Error} />
         </Switch>
         <Footer/>

@@ -1,180 +1,70 @@
-.header {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
 
-.nav-link {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  text-decoration: none;
-}
-
-.navbar > ul {
+* {
   margin: 0;
   padding: 0;
-  list-style: none;
-  width: 100%;
-  text-align: center;
-}
-
-.navbar > ul > li {
-  margin: 0 2em;
-  display: inline-block;
-  text-align: center;
-  position: relative;
-}
-
-.navbar > ul > li:hover > a {
-  color: green;
-}
-
-.navbar > ul > li::before {
-  content: "";
-  width: 0;
-  height: 20%;
-  background-color: green;
-  position: absolute;
-  top: 100%;
-  transition: 0.5s all;
-}
-
-.navbar > ul > li:hover::before {
-  width: 100%;
 }
 
 body {
-  background: #000;
-  color:  chartreuse;
-  font-family: 'Press Start 2P';
-  display: flex;
-  flex-direction: column;
+  font-family: 'Mansalva';
 }
+.rectangle {
+  width: 88%;
+  height: 350%;
+  background: rgb(157, 206, 255);
+  z-index: -1;
+  position: absolute;
+  margin: 30em 5em 5em 5em;
 
-.content {
-  background: #000;
-  color:  chartreuse;
-  font-family: 'Press Start 2P';
-  display: flex;
-  flex-direction: column;
-  min-height: 80vh;
 }
-
-.footer {
+.navbar {
+  position: fixed;
   text-align: center;
-  background-color: black;
-  position: relative;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
+  padding-left: 4em;
+  margin: 12em 5em 5em;
+}
+.navbar a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+.navbar a.active-nav {
+  color: #007FFF;
+}
+.navbar ul {
+  list-style: none;
+}
+.navbar li:hover > a {
+  color: #007FFF;
+}
+.navbar li {
+  margin: 2em;
 }
 
-a {
-  color: chartreuse;
+.landing-text {
+  position: absolute;
+  margin: 35em 325px 5em 325px;
 }
-
-br {
-  margin: 10px;
-}
-
-.about-img {
-  padding: 1em;
-  width: 40%;
-  height: 100%;
-}
-
-.contact-img {
-  padding: 1em;
-  width: 98%;
-}
-
-.landing-style {
-  margin: 5em;
-  text-align: center;
-  border: 5px solid chartreuse;
-  border-radius: 15px;
-  border-width: thin;
-}
-
-.about-style {
-  text-align: center;
-  margin: 5em;
-  border: 5px solid chartreuse;
-  border-radius: 15px;
-  border-width: thin;
-}
-.about-style h1 {
-  text-align: center;
-  margin-top: 2em;
-}
-
-.about-holder {
-  margin: 1em;
-  padding: 2em;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.helena-img {
+  width: 65%;
+  height: auto;
+  position: absolute;
+  margin: 3em 5em 0em 22em;
+  border-radius: 10px;
+  border:10px solid rgb(157, 206, 255);
+  z-index: 1;
 }
 
 .about-text {
-  margin: auto;
-  padding: 10px;
-  line-height: 2;
-  font-size: 15px;
-  vertical-align: middle;
+  position: absolute;
+  margin: 35em 325px 5em 325px;
 }
-
-.contact-style h1 {
-  text-align: center;
-  margin-top: 2em;
-}
-
-.contact-style {
-  margin: 5em;
-  text-align: center;
-  border: 5px solid chartreuse;
-  border-radius: 15px;
-  border-width: thin;
-}
-
-.contact-holder {
-  margin: 1em;
-  padding: 2em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-.social-media {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  text-align: center;
-  padding: 10px;
-  font-size: 50px;
-}
-
-.projects-style {
-  margin: 5em;
-  text-align: center;
-  border: 5px solid chartreuse;
-  border-radius: 15px;
-  border-width: thin;
-}
-
-.resume-style {
-  margin: 5em;
-  text-align: center;
-  border: 5px solid chartreuse;
-  border-radius: 15px;
-  border-width: thin;
-}
-
-.error-style {
-  margin: 5em;
-  text-align: center;
-  border: 5px solid chartreuse;
-  border-radius: 15px;
-  border-width: thin;
+.laptop-img {
+  width: 45%;
+  height: auto;
+  position: absolute;
+  margin: 3em 5em 0em 35em;
+  border-radius: 10px;
+  border:10px solid rgb(157, 206, 255);
+  z-index: 1;
 }
