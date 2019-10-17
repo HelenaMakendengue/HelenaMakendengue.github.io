@@ -10,12 +10,10 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Error from './components/Error.js';
-import Rectangle from './components/Rectangle';
 
 const routing = (
     <Router>
         <Header/>
-        <Rectangle/>
         <Switch>
             <Route exact path="/" component={Landing} />
             <Route path="/about" component={About} />

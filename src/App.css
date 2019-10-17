@@ -9,23 +9,22 @@ body {
   font-family: 'Mansalva';
 }
 .rectangle {
-  width: 88%;
-  height: 350%;
-  background: rgb(157, 206, 255);
-  z-index: -1;
   position: absolute;
   margin: 30em 5em 5em 5em;
-
+  background-color: rgb(157, 206, 255);
+  z-index: -1;
+  width: 88%;
 }
 .navbar {
   position: fixed;
   text-align: center;
   padding-left: 4em;
   margin: 12em 5em 5em;
+  z-index: 1;
 }
 .navbar a {
   color: black;
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: none;
 }
 .navbar a.active-nav {
@@ -42,8 +41,7 @@ body {
 }
 
 .landing-text {
-  position: absolute;
-  margin: 35em 325px 5em 325px;
+  margin: 5em 200px 5em 300px;
 }
 .helena-img {
   width: 65%;
@@ -56,15 +54,53 @@ body {
 }
 
 .about-text {
-  position: absolute;
-  margin: 35em 325px 5em 325px;
+  margin: 5em 200px 5em 300px;
 }
-.laptop-img {
-  width: 45%;
-  height: auto;
-  position: absolute;
-  margin: 3em 5em 0em 35em;
-  border-radius: 10px;
-  border:10px solid rgb(157, 206, 255);
-  z-index: 1;
+.icon-box {
+  font-size: 60px;
+  display: flex;
+  flex-direction: row;
+}
+.icon-box a {
+  color: #007FFF;
+}
+.icon-box p {
+  color: black;
+  
+}
+.icon-icon {
+  padding: 20px;
+}
+.icon-box {
+  font-size: 35px;
+}
+.icon-text {
+  align-content: center;
+  padding: 35px 0;
+  font-size: 25px;
+}
+
+.contact-text {
+  margin: 5em 200px 5em 300px;
+  display: flex;
+  flex-direction: column;
+}
+.info-box {
+  font-size: 60px;
+  display: flex;
+  flex-direction: row;
+}
+.info-box a {
+  color: #007FFF;
+}
+.info-box p {
+  color: black;
+  font-size: 25px;
+}
+.info-icon {
+  padding: 20px;
+}
+.info-text {
+  align-content: center;
+  padding: 24px 0;
 }
