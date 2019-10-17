@@ -41,7 +41,11 @@ body {
 }
 
 .landing-text {
-  margin: 5em 200px 5em 300px;
+  margin: 1em 200px 5em 300px;
+  font-size: 25px;
+}
+.landing-text h1 {
+  text-align: center;
 }
 .helena-img {
   width: 65%;
@@ -57,28 +61,27 @@ body {
   margin: 5em 200px 5em 300px;
 }
 .icon-box {
-  font-size: 60px;
+  padding: 25px 0px;
+  color: black;
+}
+.icon-title {
   display: flex;
   flex-direction: row;
 }
-.icon-box a {
-  color: #007FFF;
-}
-.icon-box p {
-  color: black;
-  
-}
 .icon-icon {
-  padding: 20px;
-}
-.icon-box {
-  font-size: 35px;
+  padding: 0px 25px 0px 0px;
+  font-size: 50px;
 }
 .icon-text {
   align-content: center;
-  padding: 35px 0;
   font-size: 25px;
+  padding-top: 20px;
 }
+.icon-desc {
+  font-size: 20px;
+  padding-top: 15px;
+}
+
 
 .contact-text {
   margin: 5em 200px 5em 300px;

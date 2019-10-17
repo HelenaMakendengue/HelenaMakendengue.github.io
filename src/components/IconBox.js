@@ -4,8 +4,13 @@ class IconBox extends Component {
     render() {
         return (
             <div className="icon-box">
-                <p className="icon-icon">{this.props.icon}</p>
-                <div className="icon-text">
+                <div className="icon-title">
+                    <p className="icon-icon">{this.props.icon}</p>
+                    <div className="icon-text">
+                        <p>{this.props.title}</p>
+                    </div>
+                </div>
+                <div className="icon-desc">
                     <p>{this.props.description}</p>
                 </div>
             </div>
