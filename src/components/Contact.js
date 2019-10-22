@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Header from './Header';
+import Footer from './Footer';
 import InfoBox from './InfoBox';
 
 class Contact extends Component {
@@ -37,10 +39,8 @@ class Contact extends Component {
         ]
 
         return (
-            <div className="contact-content">
-                <div className="contact-header">
-                    <p>Hello!</p>
-                </div>
+            <div>
+                <Header/>
                 <div className="rectangle">
                     <div className="contact-text">
                         {/* E-Mail */}
@@ -54,11 +54,11 @@ class Contact extends Component {
                             </div>
                         </div>
                         {socials.map(socials =>
-                            <InfoBox className="info-box" link={socials.link} icon={socials.icon} 
-                            title={socials.title} description={socials.description}/>
+                            <InfoBox link={socials.link} icon={socials.icon} title={socials.title} description={socials.description}/>
                         )}
                     </div>
                 </div>
+                <Footer/>
             </div>
         )
     }

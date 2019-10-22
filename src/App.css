@@ -1,111 +1,104 @@
-@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
-
 * {
   margin: 0;
   padding: 0;
+  font-family: 'East Sea Dokdo';
 }
 
-body {
-  font-family: 'Mansalva';
-}
-.rectangle {
-  position: absolute;
-  margin: 30em 3em 3em 3em;
-  background-color: rgb(157, 206, 255);
-  z-index: -1;
-  width: 93%;
-}
-.navbar {
-  position: fixed;
-  text-align: center;
-  /* padding-left: 4em;
-  margin: 12em 5em 5em; */
-  z-index: 5;
-}
-.navbar a {
-  color: black;
-  font-size: 25px;
-  text-decoration: none;
-}
-.navbar a.active-nav {
-  color: #007FFF;
-}
-.navbar ul {
-  list-style: none;
-}
-.navbar li:hover > a {
-  color: #007FFF;
-}
-.navbar li {
-  margin: 2em;
-}
-
-.page-header {
-  background-color: red;
+.header {
+  border-radius: 30px;
   margin: 3em;
-}
-.landing-text {
-  margin: 1em 200px 5em 300px;
-  font-size: 25px;
-}
-.landing-text {
   text-align: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+.header img {
+  flex-shrink: 0;
+  width: 100%;
+}
+.header a {
+  position: absolute;
+  z-index: 1;
+  font-size: 60px;
+  background-color: rgb(157, 206, 255);
+  padding: 5px 40px 5px 40px;
+  text-decoration: none;
+  color: black;
 }
 
+.rectangle {
+  margin: 3em;
+  background-color: rgb(157, 206, 255);
+  min-height: 250px;
+  border-radius: 30px;
+}
+
+.footer {
+  margin: 1em;
+  text-align: center;
+  font-size: 25px;
+}
+
+.landing-text {
+  padding: 1em;
+  font-size: 25px;
+  text-align: center;
+}
+.landing-text img {
+  width: 20%;
+  border-radius: 250px;
+  margin-bottom: 15px;
+}
 
 .about-text {
-  margin: 5em 200px 5em 300px;
+  padding: 1em;
 }
 .icon-box {
-  padding: 25px 0px;
-  color: black;
+  margin: 3em;
+  text-align: center;
 }
 .icon-title {
   display: flex;
   flex-direction: row;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
 }
 .icon-icon {
-  padding: 0px 25px 0px 0px;
+  margin-right: 25px;
   font-size: 50px;
-}
-.icon-text {
-  align-content: center;
-  font-size: 25px;
-  padding-top: 20px;
 }
 .icon-desc {
   font-size: 20px;
-  padding-top: 15px;
 }
 
-
+/* FIX CENTERING ISSUE */
 .contact-text {
-  margin: 5em 200px 5em 300px;
-  display: flex;
-  flex-direction: column;
+  padding: 1em 0px 1em 0px;
+  padding-left: 35%;
 }
 .info-box {
-  font-size: 60px;
   display: flex;
   flex-direction: row;
+  margin: 1em 0px 1em 0px;
 }
 .info-box a {
   color: #007FFF;
+  font-size: 60px;
 }
 .info-box p {
   color: black;
   font-size: 25px;
 }
 .info-icon {
-  padding: 20px;
-}
-.info-text {
-  align-content: center;
-  padding: 24px 0;
+  margin-right: 25px;
 }
 
-.footer {
-  position: relative;
-  width: 100%;
-  z-index: -1;
+.error-text {
+  padding: 1em;
+  font-size: 60px;
+  text-align: center;
 }

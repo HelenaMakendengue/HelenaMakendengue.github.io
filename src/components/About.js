@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Header from './Header';
+import Footer from './Footer';
 import IconBox from './IconBox';
 
 class About extends Component {
@@ -44,18 +46,16 @@ class About extends Component {
         ]
 
         return (
-            <div className="about-content">
-                <div className="about-header">
-                    <p>Hello!</p>
-                </div>
+            <div>
+                <Header/>
                 <div className="rectangle">
                     <div className="about-text">
                         {icons.map(icons =>
-                            <IconBox className="icon-box" icon={icons.icon} 
-                            title={icons.title} description={icons.description}/>
+                            <IconBox icon={icons.icon} title={icons.title} description={icons.description}/>
                         )}
                     </div>
                 </div>
+                <Footer/>
             </div>
         )
     }

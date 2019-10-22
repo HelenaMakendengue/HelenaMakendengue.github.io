@@ -7,6 +7,24 @@ class Projects extends Component {
     }
 
     render() {
+
+        // const projects = [
+        //     {
+                
+        //     },
+        //     {
+                
+        //     },
+        //     {
+                
+        //     },
+        //     {
+                
+        //     }
+        // ]
+
+
+
         return (
             <div>
 

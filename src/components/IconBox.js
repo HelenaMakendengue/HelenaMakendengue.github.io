@@ -6,9 +6,7 @@ class IconBox extends Component {
             <div className="icon-box">
                 <div className="icon-title">
                     <p className="icon-icon">{this.props.icon}</p>
-                    <div className="icon-text">
-                        <p>{this.props.title}</p>
-                    </div>
+                    <p>{this.props.title}</p>
                 </div>
                 <div className="icon-desc">
                     <p>{this.props.description}</p>
