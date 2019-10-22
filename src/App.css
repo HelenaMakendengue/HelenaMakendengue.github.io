@@ -10,17 +10,17 @@ body {
 }
 .rectangle {
   position: absolute;
-  margin: 30em 5em 5em 5em;
+  margin: 30em 3em 3em 3em;
   background-color: rgb(157, 206, 255);
   z-index: -1;
-  width: 88%;
+  width: 93%;
 }
 .navbar {
   position: fixed;
   text-align: center;
-  padding-left: 4em;
-  margin: 12em 5em 5em;
-  z-index: 1;
+  /* padding-left: 4em;
+  margin: 12em 5em 5em; */
+  z-index: 5;
 }
 .navbar a {
   color: black;
@@ -40,22 +40,18 @@ body {
   margin: 2em;
 }
 
+.page-header {
+  background-color: red;
+  margin: 3em;
+}
 .landing-text {
   margin: 1em 200px 5em 300px;
   font-size: 25px;
 }
-.landing-text h1 {
+.landing-text {
   text-align: center;
 }
-.helena-img {
-  width: 65%;
-  height: auto;
-  position: absolute;
-  margin: 3em 5em 0em 22em;
-  border-radius: 10px;
-  border:10px solid rgb(157, 206, 255);
-  z-index: 1;
-}
+
 
 .about-text {
   margin: 5em 200px 5em 300px;
@@ -106,4 +102,10 @@ body {
 .info-text {
   align-content: center;
   padding: 24px 0;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  z-index: -1;
 }

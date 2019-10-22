@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import helenaImg from '../assets/helena.jpeg';
 import InfoBox from './InfoBox';
 
 class Contact extends Component {
@@ -40,7 +39,7 @@ class Contact extends Component {
         return (
             <div className="contact-content">
                 <div className="contact-header">
-                    <img className="helena-img" src={helenaImg} alt="helena-img"/>
+                    <p>Hello!</p>
                 </div>
                 <div className="rectangle">
                     <div className="contact-text">

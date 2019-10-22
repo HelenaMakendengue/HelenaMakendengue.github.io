@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import helenaImg from '../assets/helena.jpeg';
 import IconBox from './IconBox';
 
 class About extends Component {
@@ -22,11 +21,6 @@ class About extends Component {
                 description: "Check out my latest jams on spotify blah blah..."
             },
             {
-                icon: "👟",
-                title: "I'm into fashion!",
-                description: "I'm into fashion blah blah..."
-            },
-            {
                 icon: "📷",
                 title: "I'm into photography!",
                 description: "I'm into photography blah blah..."
@@ -41,13 +35,18 @@ class About extends Component {
                 title: "I love JRPGs!",
                 description: "I love JRPGs blah blah..."
             },
+            {
+                icon: "👟",
+                title: "I'm into fashion!",
+                description: "I'm into fashion blah blah..."
+            }
 
         ]
 
         return (
             <div className="about-content">
                 <div className="about-header">
-                    <img className="helena-img" src={helenaImg} alt="helena-img"/>
+                    <p>Hello!</p>
                 </div>
                 <div className="rectangle">
                     <div className="about-text">
