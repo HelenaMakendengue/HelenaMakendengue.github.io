@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
+import NavBar from './NavBar';
 import Footer from './Footer';
 import IconBox from './IconBox';
 
@@ -14,7 +15,7 @@ class About extends Component {
         const icons = [
             {
                 icon: "👩🏾‍💻",
-                title: "I'm a 3rd Year CS Major!",
+                title: "I'm a 3rd Year Computer Science Major!",
                 description: "I'm a 3rd Year CS Major at Tech blah blah..."
             },
             {
@@ -48,6 +49,7 @@ class About extends Component {
         return (
             <div>
                 <Header/>
+                <NavBar/>
                 <div className="rectangle">
                     <div className="about-text">
                         {icons.map(icons =>

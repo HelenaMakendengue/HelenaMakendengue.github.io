@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Header from './Header';
+import NavBar from './NavBar';
+import Footer from './Footer';
 
 class Projects extends Component {
 
@@ -27,7 +30,14 @@ class Projects extends Component {
 
         return (
             <div>
-
+                <Header/>
+                <NavBar/>
+                <div className="rectangle">
+                    <div className="error-text">
+                        <p>Coming soon!</p>
+                    </div>
+                </div>
+                <Footer/>
             </div>
         )
     }

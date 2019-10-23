@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
+import NavBar from './NavBar';
 import Footer from './Footer';
 
 class Error extends Component {
@@ -7,6 +8,7 @@ class Error extends Component {
         return (
             <div>
                 <Header/>
+                <NavBar/>
                 <div className="rectangle">
                     <div className="error-text">
                         <p>404 - Page Not Found</p>

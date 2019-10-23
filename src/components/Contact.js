@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
+import NavBar from './NavBar';
 import Footer from './Footer';
 import InfoBox from './InfoBox';
 
@@ -41,6 +42,7 @@ class Contact extends Component {
         return (
             <div>
                 <Header/>
+                <NavBar/>
                 <div className="rectangle">
                     <div className="contact-text">
                         {/* E-Mail */}
@@ -50,7 +52,7 @@ class Contact extends Component {
                             </a>
                             <div className="info-text">
                                 <p>E-Mail</p>
-                                <p>Send me a message over the interwebz!</p>
+                                <p>Send me a message!</p>
                             </div>
                         </div>
                         {socials.map(socials =>
