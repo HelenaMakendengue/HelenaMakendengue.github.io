@@ -20,7 +20,7 @@ class About extends Component {
             },
             {
                 icon: "🎵",
-                title: "Check out my latest jams!",
+                title: "Check out my favorite jams!",
                 description: "Check out my latest jams on spotify blah blah..."
             },
             {

@@ -12,7 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden
+  overflow: hidden;
 }
 .header img {
   flex-shrink: 0;
@@ -33,6 +33,9 @@
   background-color: rgb(157, 206, 255);
   min-height: 250px;
   border-radius: 30px;
+  border-color: #007FFF;
+  border-style: solid;
+  border-width: 3px;
 }
 
 .footer {
@@ -128,13 +131,13 @@
   position: relative;
 }
 .navbar > ul> li:hover > a {
-  color: dodgerblue;
+  color: #007FFF;
 }
 .navbar > ul > li::before {
   content: "";
   width: 0;
   height: 10%;
-  background-color: dodgerblue;
+  background-color: #007FFF;
   position: absolute;
   top: 100%;
   transition: 0.5s all;
