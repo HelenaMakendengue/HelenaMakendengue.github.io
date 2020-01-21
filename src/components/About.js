@@ -21,7 +21,7 @@ class About extends Component {
             {
                 icon: "🎵",
                 title: "Check out my favorite jams!",
-                description: "Check out my latest jams on spotify blah blah..."
+                description: "I'm an avid Spotify user and I love making playlists for every mood under the sun."
             },
             {
                 icon: "📷",
