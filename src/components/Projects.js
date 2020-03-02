@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Header from './Header';
 import NavBar from './NavBar';
+import InfoBox from './InfoBox'
 import Footer from './Footer';
 
 class Projects extends Component {
@@ -13,47 +13,40 @@ class Projects extends Component {
 
         const projects = [
             {
-                title: "FlappyBird",
-                description: "A basic flappy bird game created in #C using Unity",
-                type: "unity",
-                image: "https://upload.wikimedia.org/wikipedia/en/e/ed/Leonardo_%28Teenage_Mutant_Ninja_Turtles%29.jpg"
+                image: "website.png",
+                title: "helenamakendengue.github.io",
+                byline: "made by me",
+                description: "My personal website!",
+                link: "https://helenamakendengue.github.io/#/",
+                linkName: "You're here right now!"
             },
             {
-                title: "GT Opportunists",
-                description: "An Android application that will allow GT students to track and find free food and swag on campus",
-                type: "mobile",
-                image: "https://upload.wikimedia.org/wikipedia/en/e/ed/Leonardo_%28Teenage_Mutant_Ninja_Turtles%29.jpg"
+                image: "sprint.png",
+                title: "Sprint Tech Check Up",
+                byline: "Project @ Asurion",
+                description: "Refactored a full-stack web application for Sprint customers, using React that allows them to diagnose and review phone battery related issues and advice using decision tree logic based on customer input",
+                link: "https://sprint.techcheckup.co/battery/battery_root",
+                linkName: "Find the website here!"
             },
             {
-                title: "Donation Tracker",
-                description: "An Android application allowing non-profit organizations to track donations and distributions",
-                type: "mobile",
-                image: "https://upload.wikimedia.org/wikipedia/en/e/ed/Leonardo_%28Teenage_Mutant_Ninja_Turtles%29.jpg"
-            },
-            {
-                title: "Leonardo",
-                description: "Leo",
-                type: "mobile",
-                image: "https://upload.wikimedia.org/wikipedia/en/e/ed/Leonardo_%28Teenage_Mutant_Ninja_Turtles%29.jpg"
+                image: "armri.png",
+                title: "Augmented Reality MRI",
+                byline: "Project for Medical-image Analysis & Statistical Interpretation Lab @ Vanderbilt University",
+                description: "Programmed an augmented reality MRI game using C#, the Microsoft Face API, and a Microsoft Kinect for Windows, to help facilitate the learning of human anatomy for grades K-12. Authored a research paper titled “Interfacing the Microsoft Face API and Kinect for Windows to Create a Personalized, Augmented Reality MRI” published by Vanderbilt University’s Young Scientist Journal (May 2017 issue)",
+                link: "https://vimeo.com/173657548",
+                linkName: "Click here for a video demo!"
             }
         ]
 
 
-
         return (
-            <div>
-                <Header/>
+            <div className="container">
                 <NavBar/>
-                <div className="rectangle">
-                    <div className="project-text">
-                        {projects.map(projects =>
-                            <div>
-                                <h3>{projects.title}</h3>
-                                <img src={projects.image} alt={`${projects.title}`} width="200"/>
-                                <p>{projects.description}</p>
-                            </div>
-                        )}
-                    </div>
+                <div className="content">
+                    {projects.map(projects =>
+                            <InfoBox key={projects.title} image={projects.image} title={projects.title} byline={projects.byline} 
+                            description={projects.description} link={projects.link} linkName={projects.linkName}/>
+                    )}
                 </div>
                 <Footer/>
             </div>

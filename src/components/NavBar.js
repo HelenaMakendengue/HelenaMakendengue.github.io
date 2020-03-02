@@ -6,8 +6,8 @@ class NavBar extends Component {
     return (
       <div className="navbar">
         <ul>
-          <li>
-            <NavLink exact to="/" className="nav-link" activeClassName="active-nav">Home</NavLink>
+          <li className="home-nav-link">
+            <NavLink exact to="/" className="nav-link" activeClassName="active-nav">Helena Makendengue</NavLink>
           </li>
           <li>
             <NavLink exact to="/about" className="nav-link" activeClassName="active-nav">About</NavLink>
@@ -16,7 +16,7 @@ class NavBar extends Component {
             <NavLink exact to="/projects" className="nav-link" activeClassName="active-nav">Projects</NavLink>
           </li>
           <li>
-            <NavLink exact to="/contact" className="nav-link" activeClassName="active-nav">Contact</NavLink>
+            <NavLink exact to="/resume" className="nav-link" activeClassName="active-nav">Resume</NavLink>
           </li>  
         </ul>
       </div>

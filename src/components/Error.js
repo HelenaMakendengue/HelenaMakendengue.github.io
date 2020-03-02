@@ -10,7 +10,7 @@ class Error extends Component {
                 <Header/>
                 <NavBar/>
                 <div className="rectangle">
-                    <div className="error-text">
+                    <div className="projects-text">
                         <p>404 - Page Not Found</p>
                     </div>
                 </div>

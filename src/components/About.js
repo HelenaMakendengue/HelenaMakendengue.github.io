@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import Header from './Header';
-import NavBar from './NavBar';
 import Footer from './Footer';
-import IconBox from './IconBox';
+import NavBar from './NavBar';
 
 class About extends Component {
 
@@ -11,51 +9,57 @@ class About extends Component {
     }
     
     render() {
-
-        const icons = [
-            {
-                icon: "👩🏾‍💻",
-                title: "I'm a 3rd Year Computer Science Major!",
-                description: "I'm a 3rd Year CS Major at Tech blah blah..."
-            },
-            {
-                icon: "🎵",
-                title: "Check out my favorite jams!",
-                description: "I'm an avid Spotify user and I love making playlists for every mood under the sun."
-            },
-            {
-                icon: "📷",
-                title: "I'm into photography!",
-                description: "I'm into photography blah blah..."
-            },
-            {
-                icon: "🎬",
-                title: "I like making machinimas!",
-                description: "I like making machinimas blah blah..."
-            },
-            {
-                icon: "🎮",
-                title: "I love JRPGs!",
-                description: "I love JRPGs blah blah..."
-            },
-            {
-                icon: "👟",
-                title: "I'm into fashion!",
-                description: "I'm into fashion blah blah..."
-            }
-
-        ]
-
         return (
-            <div>
-                <Header/>
+            <div className="container">
                 <NavBar/>
-                <div className="rectangle">
-                    <div className="about-text">
-                        {icons.map(icons =>
-                            <IconBox icon={icons.icon} title={icons.title} description={icons.description}/>
-                        )}
-                    </div>
+                <div className="content">
+                    <h1>STEM Education 👩🏾‍💻</h1>
+                        <br/>
+                        <li>Volunteering</li>
+                        <br/>
+                        <br/>
+                    <h1>Obsessed With Spider-Man 🕸</h1>
+                        <br/>
+                        <li>ultimate comic, tobey > andrew > tom</li>
+                        <br/>
+                        <br/>
+                    <h1>Love Making Playlists 🎵</h1>
+                        <br/>
+                        <li><a href="https://open.spotify.com/playlist/1o2HgQALTy0TfKISkUSSFJ?si=zkWDiPG_SzWDz8Q7ElchRA" target="_blank" rel="noopener noreferrer">current obsessions</a></li>
+                        <br/>
+                        <br/>
+                    <h1>Fashion 👗</h1>
+                        <br/>
+                        <li>PAQ, StealtheSpotlight, internetgirl</li>
+                        <br/>
+                        <br/>
+                    <h1>Novice Photographer 📷</h1>
+                        <br/>
+                        <li>check out my instagram, take photos for hackgt</li>
+                        <br/>
+                        <br/>
+                    <h1>Filmmaking 🎬</h1>
+                        <br/>
+                        <li>Films, photography, podcasts, music</li>
+                        <br/>
+                        <br/>
+                    <h1>Video Games 🎮</h1>
+                        <br/>
+                        <li>JRPGS, playstation, playstation access, visual novels, nintendo, sims, puppet combo</li>
+                        <br/>
+                        <br/>
+                    <h1>Bullet Journaling 📓</h1>
+                        <br/>
+                        <li>Yep. One of those girls.</li>
+                        <br/>
+                        <br/>
+                    <h1>Content Creation 🛠</h1>
+                        <br/>
+                        <li>Films, photography, podcasts, video games, music, art, love it all, neil cic, punch up the jam</li>
+                        <br/>
+                        <li>check out my spotify for <a href="https://open.spotify.com/playlist/2Klg4XHwClXafOoiHNCcyi?si=RYjbKsiwSc6qC3YSVtttfQ" target="_blank" rel="noopener noreferrer">songs that inspire me to create content</a></li>
+                        <br/>
+                        <br/>
                 </div>
                 <Footer/>
             </div>

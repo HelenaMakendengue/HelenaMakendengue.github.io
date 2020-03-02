@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
-import NavBar from './NavBar';
 import Footer from './Footer';
-import helenaImg from '../assets/helena.jpeg';
 
 class Landing extends Component {
 
@@ -12,21 +10,18 @@ class Landing extends Component {
 
     render() {
         return (
-            <div>
+            <div className="container">
                 <Header/>
-                <NavBar/>
-                <div className="rectangle">
-                    <div className="landing-text">
-                        <img src={helenaImg} alt="helena-img"/>
-                        <p>Howdy, I'm Helena!</p>
-                        <p>A 3rd Year Computer Science Major at Georgia Tech</p>
-                        <p>Concentrations in Artifical Intelligence and Media</p>
-                        <p>Vice President of Women @ College of Computing</p>
-                        <p>HackGT Organizer & Operations Member</p>
-                        <p>Honors Program Student</p>
-                        <p>Former Asurion Software Engineering Intern</p>
-                        <p>I’m currently looking for Summer 2020 internships opportunities!</p>
-                    </div>
+                <div className="content">
+                    <h1>Greetings and Salutations</h1>
+                    <br/>
+                    <p>I'm Helena, a 3rd Year Computer Science Major at the Georgia Institute of Technology with concentrations 
+                        in artificial intelligence and media. I’m the Co-President of Women @ College of Computing, a HackGT Organizer 
+                        and Operations Member, an Honors Program Student, and former Asurion Software Engineering Intern.
+                        <br/>
+                        <br/>
+                        I’m currently looking for Summer 2020 internships opportunities!
+                    </p>
                 </div>
                 <Footer/>
             </div>
