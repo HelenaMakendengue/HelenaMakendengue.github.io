@@ -52,6 +52,9 @@ body {
 }
 
 /* ABOUT STUFF */
+.about {
+  text-align: center;
+}
 
 /* PROJECTS STUFF */
 .info-box {
