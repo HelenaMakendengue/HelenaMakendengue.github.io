@@ -1,3 +1,4 @@
+/* BODY */
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +9,7 @@ body {
   background-color: #9acd32;
 }
 
-/* CONTAINER STUFF */
+/* CONTAINER */
 .container {
   display: grid;
   grid-template-areas:
@@ -21,7 +22,7 @@ body {
   height: 100vh;
 }
 
-/* HEADER STUFF */
+/* HEADER */
 .header {
   grid-area: header;
   position: relative;
@@ -31,7 +32,7 @@ body {
   background-size: cover;
 }
 
-/* CONTENT STUFF */
+/* CONTENT */
 .content {
   grid-area: content;
   margin: 3em 10em;
@@ -51,12 +52,51 @@ body {
   color: #007FFF;
 }
 
-/* ABOUT STUFF */
-.about {
-  text-align: center;
+/* ABOUT */
+.slider {
+  border: 1px solid red;
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
 }
 
-/* PROJECTS STUFF */
+.slide {
+  border: 1px solid blue;
+  min-width: 100%;
+  height: 80vh;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+#goLeft {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  border: 1px solid blue;
+  width: 7%;
+  height: 100%;
+  background: none;
+}
+
+#goRight {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  border: 1px solid blue;
+  width: 7%;
+  height: 100%;
+  background: none;
+}
+
+/* PROJECTS */
 .info-box {
   display: flex;
   flex-direction: row;
@@ -74,7 +114,7 @@ body {
   color: #007FFF;
 }
 
-/* RESUME STUFF */
+/* RESUME */
 .resume {
   width: 100%;
   min-height: 100%;
@@ -87,7 +127,7 @@ body {
   color: #007FFF;
 }
 
-/* FOOTER STUFF */
+/* FOOTER */
 .footer {
   grid-area: footer;
   position: relative;
@@ -109,7 +149,7 @@ body {
   color: white;
 }
 
-/* NAVBAR STUFF */
+/* NAVBAR */
 .navbar {
   grid-area: navbar;
 

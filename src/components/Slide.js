@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class IconBox extends Component {
+class Slide extends Component {
     render() {
         return (
             <div className="icon-box">
@@ -9,4 +9,4 @@ class IconBox extends Component {
     }
 }
 
-export default IconBox;
+export default Slide;

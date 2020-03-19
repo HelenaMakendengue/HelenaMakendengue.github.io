@@ -9,8 +9,8 @@ class Error extends Component {
             <div>
                 <Header/>
                 <NavBar/>
-                <div className="rectangle">
-                    <div className="projects-text">
+                <div className="container">
+                    <div className="content">
                         <p>404 - Page Not Found</p>
                     </div>
                 </div>
