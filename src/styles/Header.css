@@ -1,0 +1,10 @@
+/* HEADER */
+
+.header {
+    grid-area: header;
+    position: relative;
+    min-height: 100vh;
+    background-image: url('../../src/assets/helena3.jpeg');
+    background-position: center top;
+    background-size: cover;
+}

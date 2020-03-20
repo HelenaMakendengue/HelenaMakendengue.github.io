@@ -1,0 +1,21 @@
+/* INFOBOX */
+
+.info-box {
+    display: flex;
+    flex-direction: row;
+    margin: 2em 0em;
+}
+
+.info-img {
+    height: 100%;
+    width: 40%;
+    margin-right: 2em;
+}
+
+.info-content {
+    align-self: center;
+}
+
+.info-content a {
+    color: #007FFF;
+}

@@ -37,8 +37,7 @@ class Projects extends Component {
                 linkName: "Click here for a video demo!"
             }
         ]
-
-
+        
         return (
             <div className="container">
                 <NavBar/>

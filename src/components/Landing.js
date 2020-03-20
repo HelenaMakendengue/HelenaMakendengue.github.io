@@ -17,7 +17,8 @@ class Landing extends Component {
                     <br/>
                     <p>I'm Helena, a 3rd Year Computer Science Major at the Georgia Institute of Technology with concentrations 
                         in artificial intelligence and media. I’m the Co-President of Women @ College of Computing, a HackGT Organizer 
-                        and Operations Member, an Honors Program Student, and former Asurion Software Engineering Intern.
+                        and Operations Member, an Honors Program Student, and former Asurion Software Engineering Intern. I also have a
+                        passion for STEM education.
                         <br/>
                         <br/>
                         I’m currently looking for Summer 2020 internships opportunities!

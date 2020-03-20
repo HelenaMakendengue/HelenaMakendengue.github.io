@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "../../src/styles/InfoBox.css";
 
 class InfoBox extends Component {
     render() {
