@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import Header from './Header';
 import NavBar from './NavBar';
 import Footer from './Footer';
+import errorImg from '../assets/beavis2.gif';
 
 class Error extends Component {
     render() {
         return (
             <div>
-                <Header/>
-                <NavBar/>
                 <div className="container">
+                    <NavBar/>
                     <div className="content">
-                        <p>404 - Page Not Found</p>
+                        <h1 className="error">404 Page Not Found</h1>
+                        <img className="error-img" src={errorImg} alt="beavis pounds keyboard"/>
                     </div>
                 </div>
                 <Footer/>

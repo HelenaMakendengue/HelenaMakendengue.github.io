@@ -19,7 +19,7 @@ body {
     "footer footer footer";
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows:  auto auto 1fr auto;
-  height: 100vh;
+  min-height: 80vh;
 }
 
 /* CONTENT */
@@ -40,6 +40,19 @@ body {
 }
 .content a:visited {
   color: #007FFF;
+}
+
+/* ERROR */
+.error {
+  text-align: center;
+}
+
+.error-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+  margin-top: 2em;
 }
 
 /* RESUME */
