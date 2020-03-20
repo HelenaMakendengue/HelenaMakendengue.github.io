@@ -3,7 +3,6 @@ import "../../src/styles/Footer.css";
 
 class Footer extends Component {
     render() {
-
         const socials = [
             {
                 icon: "fa fa-linkedin-square",
@@ -26,7 +25,6 @@ class Footer extends Component {
                 title: "Spotify"
             }
         ]
-
         return (
             <div className="footer">
                 <p>© Helena Makendengue | Made with ♡ using React</p>
@@ -45,5 +43,4 @@ class Footer extends Component {
         )
     }
 }
-
 export default Footer;

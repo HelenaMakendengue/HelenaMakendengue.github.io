@@ -1,11 +1,12 @@
 /* NAVBAR */
+
 .navbar {
   grid-area: navbar;
-  
   position: relative;
   width: 100%;
   background-color: transparent;
 }
+
 .nav-link {
   width: 100%;
   height: 100%;

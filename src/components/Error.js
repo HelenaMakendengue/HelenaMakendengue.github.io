@@ -10,8 +10,10 @@ class Error extends Component {
                 <div className="container">
                     <NavBar/>
                     <div className="content">
-                        <h1 className="error">404 Page Not Found</h1>
-                        <img className="error-img" src={errorImg} alt="beavis pounds keyboard"/>
+                        <div className="content-text">
+                            <h1 className="error">404 Page Not Found</h1>
+                            <img className="error-img" src={errorImg} alt="beavis pounds keyboard"/>
+                        </div>
                     </div>
                 </div>
                 <Footer/>

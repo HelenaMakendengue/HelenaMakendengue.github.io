@@ -14,17 +14,25 @@
 }
   
 .slide {
-    min-width: 100%;
-    height: 80vh;
-    transition: 0.5s;
-    overflow: hidden;
     background: none;
     border: none;
     outline: none;
+    overflow: hidden;
+    min-width: 100%;
+    height: 80vh;
+    transition: 0.5s;
 }
 
 .slide-content {
-    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.slide-content img {
+    height: 20%;
+    width: 39.4%;
+    right: 0;
 }
 
 %btn-styles {

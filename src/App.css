@@ -1,4 +1,5 @@
 /* APP */
+
 * {
   margin: 0;
   padding: 0;
@@ -19,26 +20,31 @@ body {
     "footer footer footer";
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows:  auto auto 1fr auto;
-  min-height: 80vh;
+  min-height: 100vh;
 }
 
 /* CONTENT */
 .content {
   grid-area: content;
+  padding: 0;
+  margin: 0;
+  width:100vw;
+}
+.content-text {
   margin: 3em 10em;
   font-family: 'Raleway', sans-serif;
 }
-.content h1 {
+.content-text h1 {
   font-size: 35px;
 }
-.content p {
+.content-text p {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
 }
-.content a {
+.content-text a {
   color: #007FFF;
 }
-.content a:visited {
+.content-text a:visited {
   color: #007FFF;
 }
 
@@ -66,4 +72,19 @@ body {
 .resume-dl {
   font-size: 30px;
   color: #007FFF;
+}
+
+#scrollDown {
+  position: relative;
+  background: #007FFF;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  width: 100vw;
+  height: 5vh;
+  margin:0;
+  padding: 0;
+  font-size: 20px;
+  color: white;
 }

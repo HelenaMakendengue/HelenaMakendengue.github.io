@@ -14,10 +14,12 @@ class Resume extends Component {
             <div className="container">
                 <NavBar/>
                 <div className="content">
-                    <a className="resume-dl" href={resume} download="Helena_Makendengue_Resume_2020">
-                        Download Resume
-                    </a>
-                    <iframe className="resume" title="resume" frameBorder="0" src={resume}/>
+                    <div className="content-text">
+                        <a className="resume-dl" href={resume} download="Helena_Makendengue_Resume_2020">
+                            Download Resume
+                        </a>
+                        <iframe className="resume" title="resume" frameBorder="0" src={resume}/>
+                    </div>
                 </div>
                 <Footer/>
             </div>

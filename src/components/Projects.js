@@ -4,13 +4,10 @@ import InfoBox from './InfoBox'
 import Footer from './Footer';
 
 class Projects extends Component {
-
     componentDidMount() {
         window.scrollTo(0, 0);
     }
-
     render() {
-
         const projects = [
             {
                 image: "website.png",
@@ -37,15 +34,16 @@ class Projects extends Component {
                 linkName: "Click here for a video demo!"
             }
         ]
-        
         return (
             <div className="container">
                 <NavBar/>
                 <div className="content">
-                    {projects.map(projects =>
-                            <InfoBox key={projects.title} image={projects.image} title={projects.title} byline={projects.byline} 
-                            description={projects.description} link={projects.link} linkName={projects.linkName}/>
-                    )}
+                    <div className="content-text">
+                        {projects.map(projects =>
+                                <InfoBox key={projects.title} image={projects.image} title={projects.title} byline={projects.byline} 
+                                description={projects.description} link={projects.link} linkName={projects.linkName}/>
+                        )}
+                    </div>
                 </div>
                 <Footer/>
             </div>
