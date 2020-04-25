@@ -4,7 +4,7 @@
     grid-area: footer;
     position: relative;
     padding: 2.5em;
-    background-color: #007FFF;
+    background-color: transparent;
     text-align: center;
     color: white;
 }
@@ -21,4 +21,8 @@
     text-align: center;
     font-size: 35px;
     color: white;
+}
+
+.footer-socials > a:hover {
+    color: #abff00;
 }

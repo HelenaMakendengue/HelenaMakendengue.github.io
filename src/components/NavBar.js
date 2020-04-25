@@ -8,16 +8,16 @@ class NavBar extends Component {
       <div className="navbar">
         <ul>
           <li className="home-nav-link">
-            <NavLink exact to="/" className="nav-link" activeClassName="active-nav">Helena Makendengue</NavLink>
+            <NavLink exact to="/" className="nav-link" activeClassName="active-nav">HELENA</NavLink>
           </li>
           <li>
-            <NavLink exact to="/about" className="nav-link" activeClassName="active-nav">About</NavLink>
+            <NavLink exact to="/about" className="nav-link" activeClassName="active-nav">about</NavLink>
           </li>
           <li>
-            <NavLink exact to="/projects" className="nav-link" activeClassName="active-nav">Projects</NavLink>
+            <NavLink exact to="/projects" className="nav-link" activeClassName="active-nav">projects</NavLink>
           </li>
           <li>
-            <NavLink exact to="/resume" className="nav-link" activeClassName="active-nav">Resume</NavLink>
+            <NavLink exact to="/resume" className="nav-link" activeClassName="active-nav">resume</NavLink>
           </li>  
         </ul>
       </div>

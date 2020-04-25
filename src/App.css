@@ -3,11 +3,12 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Orbitron', sans-serif;
+  /*font-family: 'Orbitron', sans-serif;*/
+  font-family: "KoratakiW01-Regular";
 }
 
 body {
-  background-color: #9acd32;
+  background-color: #007FFF;
 }
 
 /* CONTAINER */
@@ -20,7 +21,9 @@ body {
     "footer footer footer";
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows:  auto auto 1fr auto;
-  min-height: 100vh;
+  min-height: 95vh;
+  margin-top: 2.5em;
+  color: white;
 }
 
 /* CONTENT */
@@ -29,23 +32,35 @@ body {
   padding: 0;
   margin: 0;
   width:100vw;
+  /*font-family: 'Raleway', sans-serif;*/
+  font-family: "KoratakiW01-Regular";
 }
 .content-text {
   margin: 3em 10em;
-  font-family: 'Raleway', sans-serif;
 }
 .content-text h1 {
   font-size: 35px;
+  margin-bottom: 1em;
 }
 .content-text p {
-  font-family: 'Raleway', sans-serif;
   font-size: 20px;
 }
+
+.content ul {
+  font-size: 25px;
+  line-height: 1.5;
+}
+
 .content-text a {
-  color: #007FFF;
+  color: white;
 }
 .content-text a:visited {
-  color: #007FFF;
+  color: white;
+}
+
+.content > .content-text > ul:hover {
+  color: #abff00;
+  cursor: pointer;
 }
 
 /* ERROR */
@@ -67,24 +82,9 @@ body {
   min-height: 100%;
   height: 100vh;
   margin-top: 1em;
-  color: #007FFF;
+  color: white;
 }
 .resume-dl {
   font-size: 30px;
-  color: #007FFF;
-}
-
-#scrollDown {
-  position: relative;
-  background: #007FFF;
-  border: none;
-  outline: none;
-  cursor: pointer;
-
-  width: 100vw;
-  height: 5vh;
-  margin:0;
-  padding: 0;
-  font-size: 20px;
   color: white;
 }

@@ -27,7 +27,7 @@ class Footer extends Component {
         ]
         return (
             <div className="footer">
-                <p>© Helena Makendengue | Made with ♡ using React</p>
+                <p>let's connect! | © helena makendengue</p>
                 <div className="footer-socials">
                     {/* E-Mail */}
                     <a className="E-mail" href="mailto:helenamakens1013@gmail.com">

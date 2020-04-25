@@ -42,9 +42,9 @@
 }
 
 .navbar > ul > li:hover > a {
-  color: #007FFF;
+  color: #abff00;
 }
 
 .navbar a.active-nav {
-  color: #007FFF;
+  color: #abff00;
 }
