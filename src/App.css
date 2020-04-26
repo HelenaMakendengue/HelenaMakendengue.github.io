@@ -3,8 +3,8 @@
 * {
   margin: 0;
   padding: 0;
-  /*font-family: 'Orbitron', sans-serif;*/
-  font-family: "KoratakiW01-Regular";
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
 }
 
 body {
@@ -33,7 +33,8 @@ body {
   margin: 0;
   width:100vw;
   /*font-family: 'Raleway', sans-serif;*/
-  font-family: "KoratakiW01-Regular";
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
 }
 .content-text {
   margin: 3em 10em;
@@ -65,6 +66,13 @@ body {
 
 .sub-text p {
   font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+/* RESUME */
+.resume {
+  font-size: 30px;
+  color: #abff00;
 }
 
 /* ERROR */
@@ -78,17 +86,4 @@ body {
   margin-right: auto;
   width: 50vw;
   margin-top: 2em;
-}
-
-/* RESUME */
-.resume {
-  width: 100%;
-  min-height: 100%;
-  height: 100vh;
-  margin-top: 1em;
-  color: #abff00;
-}
-.resume-dl {
-  font-size: 30px;
-  color: #abff00;
 }

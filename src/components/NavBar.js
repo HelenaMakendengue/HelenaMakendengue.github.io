@@ -18,7 +18,7 @@ class NavBar extends Component {
             <NavLink exact to="/projects" className="nav-link" activeClassName="active-nav">projects</NavLink>
           </li>  
           <li>
-            <a className="resume-dl" href={resume}>ResumeTest</a>
+            <a className="resume" href={resume}>resume</a>
           </li>
         </ul>
       </div>

@@ -1,29 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.44b254d4.chunk.css",
-    "main.js": "/static/js/main.ecef4b8f.chunk.js",
-    "main.js.map": "/static/js/main.ecef4b8f.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.105f67c5.js",
-    "runtime~main.js.map": "/static/js/runtime~main.105f67c5.js.map",
-    "static/js/2.fbec2cd6.chunk.js": "/static/js/2.fbec2cd6.chunk.js",
-    "static/js/2.fbec2cd6.chunk.js.map": "/static/js/2.fbec2cd6.chunk.js.map",
+    "main.css": "/static/css/main.dadbd67d.chunk.css",
+    "main.js": "/static/js/main.4f2be7d2.chunk.js",
+    "main.js.map": "/static/js/main.4f2be7d2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.009173a0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.009173a0.js.map",
+    "static/js/2.80ea5eaf.chunk.js": "/static/js/2.80ea5eaf.chunk.js",
+    "static/js/2.80ea5eaf.chunk.js.map": "/static/js/2.80ea5eaf.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8593bed04635163d4986784aac13263e.js": "/precache-manifest.8593bed04635163d4986784aac13263e.js",
+    "precache-manifest.20806073b05bc048ad6138602349574d.js": "/precache-manifest.20806073b05bc048ad6138602349574d.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.44b254d4.chunk.css.map": "/static/css/main.44b254d4.chunk.css.map",
-    "static/media/armri.png": "/static/media/armri.d64dd708.png",
-    "static/media/header1.jpg": "/static/media/header1.cb209d7b.jpg",
-    "static/media/helena.jpeg": "/static/media/helena.a815d671.jpeg",
-    "static/media/helena2.jpeg": "/static/media/helena2.1dcaa09e.jpeg",
-    "static/media/helena3.jpeg": "/static/media/helena3.d8925183.jpeg",
-    "static/media/helena3.JPG": "/static/media/helena3.dadf10b0.JPG",
-    "static/media/resume.pdf": "/static/media/resume.2a1b3d60.pdf",
-    "static/media/rina.png": "/static/media/rina.425761a9.png",
-    "static/media/rina2.jpg": "/static/media/rina2.e68697d6.jpg",
-    "static/media/rina3.jpg": "/static/media/rina3.43554ef3.jpg",
-    "static/media/rina4.jpg": "/static/media/rina4.7575a599.jpg",
-    "static/media/sprint.png": "/static/media/sprint.cfe24753.png",
-    "static/media/website.png": "/static/media/website.70a11f91.png",
-    "static/media/y2k.jpg": "/static/media/y2k.19827f0e.jpg"
-  }
+    "static/css/main.dadbd67d.chunk.css.map": "/static/css/main.dadbd67d.chunk.css.map",
+    "static/js/2.80ea5eaf.chunk.js.LICENSE.txt": "/static/js/2.80ea5eaf.chunk.js.LICENSE.txt",
+    "static/media/beavis2.gif": "/static/media/beavis2.7f2f132a.gif",
+    "static/media/Header.css": "/static/media/helena3.d8925183.jpeg",
+    "static/media/resume.pdf": "/static/media/resume.45a2587e.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.009173a0.js",
+    "static/js/2.80ea5eaf.chunk.js",
+    "static/css/main.dadbd67d.chunk.css",
+    "static/js/main.4f2be7d2.chunk.js"
+  ]
 }

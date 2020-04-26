@@ -13,7 +13,9 @@ class Projects extends Component {
                 <NavBar/>
                 <div className="content">
                     <div className="content-text">
-                        
+                        <div className="sub-text">
+                            <p>WIP...</p>
+                        </div>
                     </div>
                 </div>
                 <Footer/>

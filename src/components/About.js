@@ -15,16 +15,18 @@ class About extends Component {
                     <div className="content-text">
                         <div className="sub-text">
                             <p>
+                                WIP...
+                            <br/>
+                            <br/>
                                 Helena Makendengue is a 4th year computer science undergrad at the 
                                 Georgia Institute of Technology in Atlanta, Georgia.
                             <br/>
                             <br/>
-                                She's a Co-President of the Women @ College of Computing Georgia Tech, and
-                                a HackGT organizer and Operations member.
+                                She is the Co-President of the Women @ College of Computing Georgia Tech and
+                                a HackGT organizer and operations member.
                             <br/>
                             <br/>
-                                In her spare time, Helena can be found doing photography or making playlists
-                                on Spotify.
+                                In her spare time, Helena can be found practicing photography.
                             </p>
                         </div>
                     </div>
