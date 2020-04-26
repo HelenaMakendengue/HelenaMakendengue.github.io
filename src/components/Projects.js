@@ -6,6 +6,7 @@ import Footer from './Footer';
 class Projects extends Component {
     componentDidMount() {
         window.scrollTo(0, 0);
+        document.title = 'Projects | Helena Makendengue';
     }
     render() {
         const projects = [
@@ -39,10 +40,7 @@ class Projects extends Component {
                 <NavBar/>
                 <div className="content">
                     <div className="content-text">
-                        {projects.map(projects =>
-                                <InfoBox key={projects.title} image={projects.image} title={projects.title} byline={projects.byline} 
-                                description={projects.description} link={projects.link} linkName={projects.linkName}/>
-                        )}
+                        
                     </div>
                 </div>
                 <Footer/>

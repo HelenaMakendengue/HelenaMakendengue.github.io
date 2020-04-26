@@ -20,7 +20,7 @@
 }
 
 .navbar a {
-  color: white;
+  color: #abff00;
   font-size: 25px;
 }
 
@@ -42,9 +42,10 @@
 }
 
 .navbar > ul > li:hover > a {
-  color: #abff00;
+  color: white;
 }
 
 .navbar a.active-nav {
   color: #abff00;
+  text-decoration: underline;
 }

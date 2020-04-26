@@ -7,6 +7,7 @@ class Landing extends Component {
 
     componentDidMount() {
         window.scrollTo(0, 0);
+        document.title = 'Helena Makendengue';
     }
 
     render() {
@@ -17,7 +18,7 @@ class Landing extends Component {
                     <div className="content-text">
                         <h1>greetings and salutations!</h1>
                         <br/>
-                        <ul>3rd year @ georgia institute of technology</ul>
+                        <ul>4th year @ georgia institute of technology</ul>
                         <ul>computer science major, artificial intelligence and media</ul>
                         <ul>co-president of women @ college of computing</ul>
                         <ul>hackgt organizer and operations member</ul>
