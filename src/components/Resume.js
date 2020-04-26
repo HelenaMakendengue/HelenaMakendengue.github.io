@@ -16,10 +16,10 @@ class Resume extends Component {
                 <NavBar/>
                 <div className="content">
                     <div className="content-text">
-                        <a className="resume-dl" href={resume} download="Helena_Makendengue_Resume_2020">
+                        <a className="resume-dl" href={resume}>
                             Download Resume
                         </a>
-                        <iframe className="resume" title="resume" frameBorder="0" src={resume}/>
+                        <p>Resume opened in new tab.</p>
                     </div>
                 </div>
                 <Footer/>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import "../../src/styles/NavBar.css";
+import resume from '../assets/resume.pdf';
 
 class NavBar extends Component {
   render() {
@@ -15,10 +16,10 @@ class NavBar extends Component {
           </li>
           <li>
             <NavLink exact to="/projects" className="nav-link" activeClassName="active-nav">projects</NavLink>
-          </li>
-          <li>
-            <NavLink exact to="/resume" className="nav-link" activeClassName="active-nav">resume</NavLink>
           </li>  
+          <li>
+            <a className="resume-dl" href={resume}>ResumeTest</a>
+          </li>
         </ul>
       </div>
     )
