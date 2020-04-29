@@ -15,18 +15,15 @@ class About extends Component {
                     <div className="content-text">
                         <div className="sub-text">
                             <p>
-                                WIP...
+                                Nashville Native, love of video games and edu tech
+                                fueled my interest in tech.
+                                I'm a <a className="body-link" href="https://www.instagram.com/helenatakespictures/" target="_blank" rel="noopener noreferrer">novice photographer</a>.
                             <br/>
                             <br/>
-                                Helena Makendengue is a 4th year computer science undergrad at the 
-                                Georgia Institute of Technology in Atlanta, Georgia.
+                                Spotify Playlist Curator
                             <br/>
                             <br/>
-                                She is the Co-President of the Women @ College of Computing Georgia Tech and
-                                a HackGT organizer and operations member.
-                            <br/>
-                            <br/>
-                                In her spare time, Helena can be found practicing photography.
+                                Spider-Man Aficionado
                             </p>
                         </div>
                     </div>

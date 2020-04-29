@@ -48,16 +48,11 @@
 
 .navbar > ul > li:hover > a {
   color: black;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .navbar a.active-nav {
   color: #abff00;
-  text-decoration: underline;
-}
-
-.navbar > ul > li:hover > a {
-  color: black;
   text-decoration: underline;
 }
 
