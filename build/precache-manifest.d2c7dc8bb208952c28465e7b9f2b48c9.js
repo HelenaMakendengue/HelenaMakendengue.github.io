@@ -1,27 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cb7072f67da73c096fd468ac00729a2c",
+    "revision": "07fce711df4c412dea0db9f4bee23e19",
     "url": "/index.html"
   },
   {
-    "revision": "10548b2f8b410d5799bb",
-    "url": "/static/css/main.44b254d4.chunk.css"
+    "revision": "20f6650b3e38afc1a9a8",
+    "url": "/static/css/main.e0f4158a.chunk.css"
   },
   {
-    "revision": "9663c755201c607e9010",
-    "url": "/static/js/2.fbec2cd6.chunk.js"
+    "revision": "ce0613d131ea76074ab4",
+    "url": "/static/js/2.1c3b9f28.chunk.js"
   },
   {
-    "revision": "10548b2f8b410d5799bb",
-    "url": "/static/js/main.ecef4b8f.chunk.js"
+    "revision": "507c4436aa55e48136618e82a79cbf78",
+    "url": "/static/js/2.1c3b9f28.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ca5c8fe1c991f76257d4",
-    "url": "/static/js/runtime~main.105f67c5.js"
+    "revision": "20f6650b3e38afc1a9a8",
+    "url": "/static/js/main.d6919df8.chunk.js"
+  },
+  {
+    "revision": "caf2a04453df4bace4e4",
+    "url": "/static/js/runtime-main.009173a0.js"
   },
   {
     "revision": "d64dd708e566be399ea07622a1cb922c",
     "url": "/static/media/armri.d64dd708.png"
+  },
+  {
+    "revision": "3981482e5df655a1b16b445e6f0139be",
+    "url": "/static/media/beavis1.3981482e.gif"
+  },
+  {
+    "revision": "7f2f132ade11c771a622a454889f4618",
+    "url": "/static/media/beavis2.7f2f132a.gif"
+  },
+  {
+    "revision": "229aefe37ed9c08438dbc8365b597776",
+    "url": "/static/media/example.229aefe3.jpg"
   },
   {
     "revision": "cb209d7bb92143b426fa447f8bd4a153",
@@ -44,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/helena3.dadf10b0.JPG"
   },
   {
-    "revision": "2a1b3d6025b0132243d30bcfd5ef9e98",
-    "url": "/static/media/resume.2a1b3d60.pdf"
+    "revision": "47fed1a06442c64a1e1580c2ee70e536",
+    "url": "/static/media/resume.47fed1a0.pdf"
   },
   {
     "revision": "425761a9f4051a160e3cc183c5ed9509",
@@ -62,6 +78,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7575a5991d6ec794ac40861679a6c2e7",
     "url": "/static/media/rina4.7575a599.jpg"
+  },
+  {
+    "revision": "013c497b36e441a2c51158546155102d",
+    "url": "/static/media/sample.013c497b.jpeg"
+  },
+  {
+    "revision": "07fc9aba8b3b715a14ebcb51f31b7f9e",
+    "url": "/static/media/sample2.07fc9aba.jpg"
+  },
+  {
+    "revision": "ad5115937fb4e09aaf11c4a29a6a5f44",
+    "url": "/static/media/sample3.ad511593.jpg"
   },
   {
     "revision": "cfe24753f9e27a7ed07330b35216d24c",

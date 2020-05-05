@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import "../../src/styles/Carousel.scss";
-import pic from "../assets/sample.jpeg"
-import pic2 from "../assets/sample2.jpg"
-import pic3 from "../assets/sample3.jpg"
+import pic from "../assets/example.jpg"
 
 function Carousel() {
     let carouselArr = [
@@ -18,13 +16,13 @@ function Carousel() {
                 </li>
                 <br/>
                 <li> 
-                    <a href="https://open.spotify.com/playlist/5Or8p1N2KrJUyWNniOW27k?si=TOFIhlkxROu6AfdzPnn0CA" 
+                    <a href="https://open.spotify.com/playlist/3ZKyszSdjB5sAr7pulSumX?si=HmGmRHlSSz-Xdv9h_teD6A" 
                     target="_blank" rel="noopener noreferrer">
                         Current Favorites
                     </a>
                 </li>
             </div>
-            <img src={pic} alt="rina"/>
+            <img src={pic} alt="placeholder image"/>
         </div>,
         <div className="slide-content">
             <div>
@@ -39,15 +37,11 @@ function Carousel() {
                     </a>
                 </li>
             </div>
-            <img src={pic2} alt="rina"/>
+            <img src={pic} alt="placeholder image"/>
         </div>,
         <div className="slide-content">
             <div>
                 <h1>Filmmaker <span role="img" aria-label="clapper board">🎬</span></h1>
-                <br/>
-                <li>personal short film projects</li>
-                <br/>
-                <li>machinimas</li>
                 <br/>
                 <li>
                     <a href="https://www.youtube.com/watch?v=uFYS3wb34yg" 
@@ -56,28 +50,20 @@ function Carousel() {
                     </a>
                 </li>
             </div>
-            <img src={pic3} alt="rina"/>
+            <img src={pic} alt="placeholder image"/>
         </div>,
         <div className="slide-content">
             <div>
                 <h1>Content Creator <span role="img" aria-label="hammer and wrench">🛠</span></h1>
                 <br/>
-                <li>Films, photography, podcasts, video games, music, art, love it all, neil cic, punch up the jam</li>
-                <br/>
-                <li>alien music</li>
-                <br/>
-                <li>pixel affection</li>
-                <br/>
-                <li>sketches</li>
-                <br/>
                 <li>
-                    <a href="https://open.spotify.com/playlist/2Klg4XHwClXafOoiHNCcyi?si=RYjbKsiwSc6qC3YSVtttfQ" 
+                    <a href="https://open.spotify.com/playlist/2Klg4XHwClXafOoiHNCcyi?si=LAVeITEbRfG2tZjk3ehkjA" 
                     target="_blank" rel="noopener noreferrer">
                         songs that inspire me to create content
                     </a>
                 </li>
             </div>
-            <img src={pic} alt="rina"/>
+            <img src={pic} alt="placeholder image"/>
         </div>,
         <div className="slide-content">
             <div>
@@ -85,7 +71,7 @@ function Carousel() {
                 <br/>
                 <li>JRPGS, playstation, playstation access, visual novels, nintendo, sims, puppet combo</li>
             </div>
-            <img src={pic2} alt="rina"/>
+            <img src={pic} alt="placeholder image"/>
         </div>,
         <div className="slide-content">
             <div>
@@ -112,7 +98,7 @@ function Carousel() {
                     </a>
                 </li>
             </div>
-            <img src={pic3} alt="rina"/>
+            <img src={pic} alt="placeholder image"/>
         </div>,
         <div className="slide-content">
             <div>
@@ -122,7 +108,7 @@ function Carousel() {
                 <br/>
                 <li>tobey > andrew > tom</li>
             </div>
-            <img src={pic} alt="rina"/>
+            <img src={pic} alt="placeholder image"/>
         </div>
     ];
     const [x, setX] = useState(0);

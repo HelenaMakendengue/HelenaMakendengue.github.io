@@ -32,7 +32,7 @@ class Landing extends Component {
                             passion for STEM education.
                             <br/>
                             <br/>
-                            I’m currently looking for Summer 2020 internships opportunities!
+                            I’m currently looking for Summer 2020 internship opportunities!
                         </p>
                     </div>
                 </div>
