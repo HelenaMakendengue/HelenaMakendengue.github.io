@@ -1,26 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.e0f4158a.chunk.css",
-    "main.js": "/static/js/main.ee55771f.chunk.js",
-    "main.js.map": "/static/js/main.ee55771f.chunk.js.map",
+    "main.js": "/static/js/main.470a84ab.chunk.js",
+    "main.js.map": "/static/js/main.470a84ab.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.009173a0.js",
     "runtime-main.js.map": "/static/js/runtime-main.009173a0.js.map",
-    "static/js/2.accc5db3.chunk.js": "/static/js/2.accc5db3.chunk.js",
-    "static/js/2.accc5db3.chunk.js.map": "/static/js/2.accc5db3.chunk.js.map",
+    "static/js/2.1c3b9f28.chunk.js": "/static/js/2.1c3b9f28.chunk.js",
+    "static/js/2.1c3b9f28.chunk.js.map": "/static/js/2.1c3b9f28.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b7430ffa33124d19522e4d2f1246b302.js": "/precache-manifest.b7430ffa33124d19522e4d2f1246b302.js",
+    "precache-manifest.ca3f7047f9912509e2b820ee3369a6fb.js": "/precache-manifest.ca3f7047f9912509e2b820ee3369a6fb.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.e0f4158a.chunk.css.map": "/static/css/main.e0f4158a.chunk.css.map",
-    "static/js/2.accc5db3.chunk.js.LICENSE.txt": "/static/js/2.accc5db3.chunk.js.LICENSE.txt",
+    "static/js/2.1c3b9f28.chunk.js.LICENSE.txt": "/static/js/2.1c3b9f28.chunk.js.LICENSE.txt",
     "static/media/armri.png": "/static/media/armri.d64dd708.png",
     "static/media/beavis1.gif": "/static/media/beavis1.3981482e.gif",
     "static/media/beavis2.gif": "/static/media/beavis2.7f2f132a.gif",
+    "static/media/example.jpg": "/static/media/example.229aefe3.jpg",
     "static/media/header1.jpg": "/static/media/header1.cb209d7b.jpg",
     "static/media/helena.jpeg": "/static/media/helena.a815d671.jpeg",
     "static/media/helena2.jpeg": "/static/media/helena2.1dcaa09e.jpeg",
     "static/media/helena3.jpeg": "/static/media/helena3.d8925183.jpeg",
     "static/media/helena3.JPG": "/static/media/helena3.dadf10b0.JPG",
-    "static/media/resume.pdf": "/static/media/resume.2a1b3d60.pdf",
+    "static/media/resume.pdf": "/static/media/resume.47fed1a0.pdf",
     "static/media/rina.png": "/static/media/rina.425761a9.png",
     "static/media/rina2.jpg": "/static/media/rina2.e68697d6.jpg",
     "static/media/rina3.jpg": "/static/media/rina3.43554ef3.jpg",
@@ -34,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.009173a0.js",
-    "static/js/2.accc5db3.chunk.js",
+    "static/js/2.1c3b9f28.chunk.js",
     "static/css/main.e0f4158a.chunk.css",
-    "static/js/main.ee55771f.chunk.js"
+    "static/js/main.470a84ab.chunk.js"
   ]
 }
