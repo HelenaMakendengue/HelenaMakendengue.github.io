@@ -7,19 +7,20 @@ class NavBar extends Component {
   render() {
     return (
       <div className="navbar">
-        <ul>
-          <li className="home-nav-link">
-            <NavLink exact to="/" className="nav-link" activeClassName="active-nav">HELENA</NavLink>
-          </li>
-          <li>
-            <NavLink exact to="/about" className="nav-link" activeClassName="active-nav">about</NavLink>
-          </li>
-          <li>
-            <NavLink exact to="/projects" className="nav-link" activeClassName="active-nav">projects</NavLink>
-          </li>  
-          <li>
-            <a className="resume" href={resume}>resume</a>
-          </li>
+        <ul className="nav-list">
+          <div className="main-link">
+            <li>
+              <NavLink exact to="/" className="home-nav-link" activeClassName="active-nav">HELENA</NavLink>
+            </li>
+          </div>
+          <div className="sub-links">
+            <li>
+              <NavLink exact to="/about" className="about-nav-link" activeClassName="active-nav">about</NavLink>
+            </li>
+            <li>
+              <a href={resume} className="resume-nav-link" target="_blank" rel="noopener noreferrer">resume</a>
+            </li>
+          </div>
         </ul>
       </div>
     )

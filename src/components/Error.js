@@ -4,6 +4,10 @@ import Footer from './Footer';
 import errorImg from '../assets/beavis2.gif';
 
 class Error extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+        document.title = '404 Page Not Found';
+    }
     render() {
         return (
             <div>

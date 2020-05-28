@@ -1,0 +1,32 @@
+/* ABOUT */
+
+.about-pic {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-text {
+    margin-top: 2em;
+}
+
+.about-text p {
+    color: #abff00;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.about-text a {
+    color: #abff00;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.about-text a:hover {
+    color: black;
+}

@@ -1,0 +1,24 @@
+/* LANDING */
+
+.landing-text {
+    color: #abff00;
+    font-size: 30px;
+}
+
+.landing-text p {
+    color: #abff00;
+    text-decoration: underline;
+}
+
+.landing-text a {
+    color: #abff00;
+    text-decoration: none;
+}
+
+.landing-text > ul {
+    line-height: 1.5;
+}
+
+.landing-text > ul a:hover {
+    color: black;
+}

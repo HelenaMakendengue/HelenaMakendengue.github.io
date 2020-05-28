@@ -2,11 +2,10 @@
 
 .footer {
     grid-area: footer;
-    position: relative;
-    padding: 2.5em;
     background-color: transparent;
     text-align: center;
     color: #abff00;
+    padding: 2em;
 }
 
 .footer p {

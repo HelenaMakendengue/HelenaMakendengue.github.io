@@ -1,0 +1,27 @@
+/* PROJECTS */
+
+.project-header h1 {
+    color: #abff00;
+    font-size: 50px;
+    text-decoration: underline;
+    margin-bottom: 1em;
+}
+
+.project-header p {
+    color: #abff00;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.project-header a {
+    color: #abff00;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.project-header a:hover {
+    color: black;
+}

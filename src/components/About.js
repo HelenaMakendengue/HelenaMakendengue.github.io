@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar';
 import Footer from './Footer';
+import "../../src/styles/About.css";
+import aboutPic from "../assets/helena3.jpeg"
 
 class About extends Component {
     componentDidMount() {
@@ -12,20 +14,20 @@ class About extends Component {
             <div className="container">
                 <NavBar/>
                 <div className="content">
-                    <div className="content-text">
-                        <div className="sub-text">
-                            <p>
-                                Nashville Native, love of video games and edu tech
-                                fueled my interest in tech.
-                                I'm a <a className="body-link" href="https://www.instagram.com/helenatakespictures/" target="_blank" rel="noopener noreferrer">novice photographer</a>.
+                    <img className="about-pic" src={aboutPic} alt="Helena's Headshot"/>
+                    <div className="about-text">
+                        <p>
+                            Helena H. Makendengue is a fourth-year Computer Science Major at the Georgia Institute of Technology with concentrations in (Artificial) Intelligence and Media. 
                             <br/>
                             <br/>
-                                Spotify Playlist Curator
+                            She is the Co-President of <a href="https://women.cc.gatech.edu/" target="_blank" rel="noopener noreferrer">Women @ College of Computing</a> Georgia Tech, a <a href="https://hack.gt/" target="_blank" rel="noopener noreferrer">HackGT</a> Organizer and Operations Member, and an Honors Program student.
                             <br/>
                             <br/>
-                                Spider-Man Aficionado
-                            </p>
-                        </div>
+                            This summer she is a fellow of the Major League Hacking Fellowship powered by Github and is a former software engineering intern at Asurion.
+                            <br/>
+                            <br/>
+                            In her free time she enjoys developing her skills as a photographer and video editor.
+                        </p>
                     </div>
                 </div>
                 <Footer/>
