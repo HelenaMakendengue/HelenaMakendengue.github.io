@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import NavBar from './NavBar';
 import Footer from './Footer';
 import "../../src/styles/About.css";
-import aboutPic from "../assets/helena3.jpeg"
 
 class About extends Component {
     componentDidMount() {
@@ -14,7 +13,6 @@ class About extends Component {
             <div className="container">
                 <NavBar/>
                 <div className="content">
-                    <img className="about-pic" src={aboutPic} alt="Helena's Headshot"/>
                     <div className="about-text">
                         <p>
                             Helena H. Makendengue is a fourth-year Computer Science Major at the Georgia Institute of Technology with concentrations in (Artificial) Intelligence and Media. 

@@ -25,6 +25,7 @@ class Videography extends Component {
                         <div className="project-details">
                             <p>no links in particular maybe the YT for campus movie fest <a href="https://instagram.com/helenatakespictures" target="_blank" rel="noopener noreferrer">here</a>.</p>
                         </div>
+                        <iframe className="cmf-video" title="cmf-video" width="560" height="315" src="https://www.youtube.com/embed/uFYS3wb34yg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
                 <Footer/>
