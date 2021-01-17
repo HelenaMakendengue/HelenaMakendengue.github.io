@@ -2,97 +2,236 @@
 
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
 }
 
 body {
     background-color: dodgerblue;
 }
 
-.nav, .footer {
-    display: block;
-    background-color: dodgerblue;
-}
-
-.container {
+/* .container {
     width: 100%;
     margin: auto;
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color: navy;
-}
+} */
 
-.row {
+/* .row {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background-color: dodgerblue;
-}
+} */
 
-.row::after {
+/* .row::after {
     display: table;
     clear: both;
     content: "";
-}
+} */
 
-.col-1 {width: 8.33%; background-color: red;}
-.col-2 {width: 16.66%; background-color: red;}
-.col-3 {width: 25%; background-color: red;}
-.col-4 {width: 33.33%; background-color: red;}
-.col-5 {width: 41.66%; background-color: red;}
-.col-6 {width: 50%; background-color: red;}
-.col-7 {width: 58.33%; background-color: red;}
-.col-8 {width: 66.66%; background-color: red;}
-.col-9 {width: 75%; background-color: red;}
-.col-10 {width: 83.33%; background-color: red;}
-.col-11 {width: 91.66%; background-color: red;}
-.col-12 {width: 100%; background-color: red;}
+/* .col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;} */
 
 /* -------------------- NAVBAR -------------------- */
 
-nav {
-    width: 100%;
+.logo-div-mobile {
+    display: none;
+    visibility: hidden;
 }
 
-.nav-space {
+.logo-mobile {
+    display: none;
+    visibility: hidden;
+}
+
+header {
     display: flex;
-    flex-direction: row;
-    margin: 0 auto;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
 }
 
-.nav-button {
-    border-radius: 25% 5% 25% 5% / 80% 5% 80% 5%;
-    border-width: 10px;
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    border-width: 5px;
     border-style: solid;
     border-color: #9acd32;
-    background-color: dodgerblue;
-    padding: 15px 75px;
+    border-radius: 25% 5% 25% 5% / 80% 5% 80% 5%;
+    font-size: 30px;
+    padding: 10px 30px;
 }
 
-.nav-button:hover {
+.nav-links li {
+  padding: 0 10px;
+}
+
+.nav-links li a:hover {
     background-color: #9acd32;
-    color: #ffffff;
-}
-
-.nav-button a {
-    text-decoration: none;
-    color: #ffffff;
+    border-color: white;
+    color: dodgerblue;
 }
 
 /* -------------------- CONTENT -------------------- */
 
-.content-space {
+/* .content-space {
     margin: 0 auto;
     border-radius: 65px;
     background-color: #9acd32;
     text-align: justify;
     padding: 30px 60px;
     
-}
+} */
 
 /* -------------------- MOBILE -------------------- */
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 950px) {
+
+    .logo-div-mobile {
+        display: none;
+        visibility: hidden;
+    }
+
+    .logo-mobile {
+        display: none;
+        visibility: hidden;
+    }
+
+    header {
+        padding: 30px 5%;
+    }
+    
+    header a {
+        font-size: 30px;
+    }
+    
+    .nav-links a {
+        border-width: 5px;
+        font-size: 20px;
+        padding: 10px 30px;
+    }
+    
+    .nav-links li {
+      padding: 0 10px;
+    }
+    
+    .nav-links li a:hover {
+        background-color: #9acd32;
+        border-color: white;
+        color: dodgerblue;
+    }
+    
+}
+
+/* FINE TUNE THIS SIZE */
+
+@media screen and (max-width: 650px) {
+
+    .logo-div-mobile {
+        display: none;
+        visibility: hidden;
+    }
+
+    .logo-mobile {
+        display: none;
+        visibility: hidden;
+    }
+
+    header {
+        padding: 30px 5%;
+    }
+    
+    header a {
+        font-size: 15px;
+    }
+    
+    .nav-links a {
+        border-width: 5px;
+        font-size: 12px;
+        padding: 10px 30px;
+    }
+    
+    .nav-links li {
+      padding: 0 10px;
+    }
+    
+    .nav-links li a:hover {
+        background-color: #9acd32;
+        border-color: white;
+        color: dodgerblue;
+    }
+    
+}
+
+@media screen and (max-width: 530px) {
+
+    .logo-div-mobile {
+        display: block;
+        visibility: visible;
+        width: 100%;
+        text-align: center;
+        padding-top: 15px; 
+    }
+
+    .logo-mobile {
+        display: block;
+        visibility: visible;
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+
+    header {
+        padding: 15px 5%;
+        justify-content: space-around;
+    }
+    
+    .logo {
+        display: none;
+        visibility: hidden;
+    }
+    
+    .nav-links a {
+        border-width: 3px;
+        font-size: 10px;
+        padding: 5px 25px;
+    }
+    
+    .nav-links li {
+      padding: 0 1px;
+    }
+    
+    .nav-links li a:hover {
+        background-color: #9acd32;
+        border-color: white;
+        color: dodgerblue;
+    }
     
 }
