@@ -96,6 +96,37 @@ header {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
 }
+/* -------------------- FOOTER -------------------- */
+.footer {
+    width: 100%;
+    text-align:center;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 4%;
+    color: white;
+}
+.copyright {
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+.contact-links {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   list-style: none;
+}
+.contact-links li {
+    padding: 0 10px;
+}
+.contact-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 45px;
+}
+.contact-links li a:hover {
+    color: #9acd32;
+}
 /* -------------------- MOBILE -------------------- */
 @media screen and (max-width: 950px) {
     .logo-div-mobile {
@@ -128,6 +159,12 @@ header {
     .content-space {
         padding: 40px 60px;
         font-size: 20px;
+    }
+    .copyright {
+        font-size: 20px;
+    }
+    .contact-links a {
+        font-size: 40px;
     }
 }
 @media screen and (max-width: 725px) {
@@ -171,6 +208,12 @@ header {
         padding: 30px 50px;
         font-size: 15px;
     }
+    .copyright {
+        font-size: 15px;
+    }
+    .contact-links a {
+        font-size: 30px;
+    }
 }
 @media screen and (max-width: 350px) {
     .logo-div-mobile {
@@ -212,5 +255,14 @@ header {
         border-radius: 45px;
         padding: 20px 30px;
         font-size: 10px;
+    }
+    .copyright {
+        font-size: 10px;
+    }
+    .contact-links li {
+        padding: 0 5px;
+    }
+    .contact-links a {
+        font-size: 20px;
     }
 }
