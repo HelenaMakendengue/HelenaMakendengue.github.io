@@ -68,11 +68,13 @@ header {
 .nav-links li {
     padding: 0 10px;
 }
-.nav-links li a:hover {
+
+.nav-links li a:hover, .nav-links li a.active-nav-link {
     background-color: #9acd32;
     border-color: white;
     color: dodgerblue;
 }
+
 .nav-links a {
     text-decoration: none;
     color: white;
@@ -95,6 +97,17 @@ header {
     font-size: 25px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
+}
+.test-list li {
+    list-style: none;
+}
+
+.test-list li:before {
+    content: "\25C9";
+    /* content: url(/bullet.svg); */
+    color: hsl(210, 100%, 56%);
+    margin-right: 10px;
+    
 }
 /* -------------------- FOOTER -------------------- */
 .footer {
