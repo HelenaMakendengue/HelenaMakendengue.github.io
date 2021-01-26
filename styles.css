@@ -99,11 +99,12 @@ header {
     font-weight: 500;
 }
 
-.test-list {
+.custom-list li {
     list-style: none;
+    margin-bottom: 5px;
 }
 
-.test-list li::before { 
+.custom-list li::before { 
     content: '';
     display: inline-block;
     height: .85em;
