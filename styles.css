@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 body {
+    box-sizing: inherit;
     background-color: dodgerblue;
 }
 .container {
@@ -68,13 +69,11 @@ header {
 .nav-links li {
     padding: 0 10px;
 }
-
 .nav-links li a:hover, .nav-links li a.active-nav-link {
     background-color: #9acd32;
     border-color: white;
     color: dodgerblue;
 }
-
 .nav-links a {
     text-decoration: none;
     color: white;
@@ -99,11 +98,15 @@ header {
     font-weight: 500;
 }
 
+.custom-list ul {
+    padding-inline-start: 10px;
+}
+
 .custom-list li {
     list-style: none;
     margin-bottom: 5px;
+    
 }
-
 .custom-list li::before { 
     content: '';
     display: inline-block;
@@ -113,6 +116,23 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 10px;
+}
+
+.sub-list {
+    margin-left: 30px;
+}
+
+.project-header {
+    margin: 15px 0px;
+}
+.project-div h3 {
+    margin: 15px 0px;
+}
+.project-div {
+    line-height: 1.5em;
+}
+.project-div a {
+    margin-top: 5px;
 }
 
 /* -------------------- FOOTER -------------------- */
@@ -227,6 +247,9 @@ header {
         padding: 30px 50px;
         font-size: 15px;
     }
+    .landing-header {
+        font-size: 17px;
+    }
     .copyright {
         font-size: 15px;
     }
@@ -234,7 +257,7 @@ header {
         font-size: 30px;
     }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 351px) {
     .logo-div-mobile {
         display: block;
         visibility: visible;
@@ -274,6 +297,9 @@ header {
         border-radius: 45px;
         padding: 20px 30px;
         font-size: 10px;
+    }
+    .landing-header {
+        font-size: 15px;
     }
     .copyright {
         font-size: 10px;
