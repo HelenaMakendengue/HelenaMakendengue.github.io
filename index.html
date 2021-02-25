@@ -4,64 +4,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helena Makendengue</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@300&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <main>
-      <!-- *********************** ABOUT *********************** -->
+      <!-- *********************** NAVBAR *********************** -->
       <header>
-        <h1>Helena Makendengue</h1>
-        <h2>Front-End Developer</h2>
-        <p>I'm Helena Makendengue, an aspiring web developer and 4th Year, Computer Science major at the Georgia Institute of Technology with concentrations in artificial intelligence and media.</p>
-        <p>I’m currently looking for full-time, web development opportunities! Feel free to connect with me!</p>
+        <div class="content-wrap">
+          <h1>Helena Makendengue</h1>
+          <nav>
+            <ul class="nav-list">
+              <li><a href="#">Link 1</a></li>
+              <li><a href="#">Link 2</a></li>
+              <li><a href="#">Link 3</a></li>
+            </ul>
+          </nav>
+        </div>
       </header>
+      <!-- *********************** ABOUT *********************** -->
+      <section class="about">
+        <div class="content-wrap">
+          <h2>Front-End Developer</h2>
+          <p>I'm Helena Makendengue, an aspiring web developer and 4th Year, Computer Science major at the Georgia Institute of Technology with concentrations in artificial intelligence and media.</p>
+          <p>I’m currently looking for full-time, web development opportunities! Feel free to connect with me!</p>
+          <!-- <img src="images/thumbnail-2.jpg" alt="helena makendengue"> -->
+        </div>
+      </section>
       <!-- ******************** PROJECTS ********************* -->
-      <section>
-        <h2>Featured Projects</h2>
-        <p>View selected projects below. More information can be found at <a href="#">NULL LINK</a>.</p>
-        <section>
-          <h3>HelenaMakendengue.github.io</h3>
-          <img src="images/thumbnail-2.jpg" alt="landing page for helenamakendengue.github.io">
-          <p>Designing, programming, and updating, my personal website to further strengthen my knowledge of HTML/CSS, JavaScript, and React.</p>
-          <a href="https://github.com/HelenaMakendengue/HelenaMakendengue.github.io" target="_blank" rel="noopener noreferrer">View the GitHub repository!</a>
-        </section>
+      <section class="projects">
+        <div class="content-wrap divider">
+          <h2>Featured Projects</h2>
+          <p>View selected projects below. More information can be found at <a href="https://github.com/HelenaMakendengue" target="_blank" rel="noopener noreferrer">github.com/HelenaMakendengue</a>.</p>
+          <section class="project-item">
+            <img src="images/thumbnail-2.jpg" alt="linktree inspired page for helenamakendengue.github.io">
+            <h3>HelenaMakendengue.github.io/links</h3>
+            <p>Designing, programming, and updating, my personal website to further strengthen my knowledge of HTML/CSS, JavaScript, and React.</p>
+            <a class="btn" href="https://github.com/HelenaMakendengue/HelenaMakendengue.github.io/tree/release/links" target="_blank" rel="noopener noreferrer">View the GitHub repository!</a>
+          </section>
+          <section class="project-item">
+            <img src="images/thumbnail-2.jpg" alt="landing page for helenamakendengue.github.io">
+            <h3>HelenaMakendengue.github.io</h3>
+            <p>Designing, programming, and updating, my personal website to further strengthen my knowledge of HTML/CSS, JavaScript, and React.</p>
+            <a class="btn" href="https://github.com/HelenaMakendengue/HelenaMakendengue.github.io/tree/release/" target="_blank" rel="noopener noreferrer">View the GitHub repository!</a>
+          </section>
+        </div>
       </section>
       <!-- *********************** WORK EXPERIENCE *********************** -->
-      <section>
-        <h2>Work Experience</h2>
-        <section>
-          <h3>Front-End Engineering Intern</h3>
-          <p>Asurion, LLC</p>
-          <p>May 2019 - July 2019</p>
-          <p>Soluto @ Asurion Refactored UI components in a web application for Sprint customers, using React that allows them to diagnose phone battery issues and view advice using decision tree logic based on the customer's input.</p>
-          <p>Optional list:</p>
-          <ul>
-            <li>Delete this list if you don't need it.</li>
-            <li>Created...</li>
-            <li>Lead...</li>
-            <li>Responsible for...</li>
-          </ul>
-          <a href="https://sprint.techcheckup.co/battery/battery_root" target="_blank" rel="noopener noreferrer">View the website!</a>
-        </section>
+      <section class="work-experience">
+        <div class="content-wrap item-details divider">
+          <h2>Work Experience</h2>
+          <section class="job-item">
+            <div class="job-details">
+              <h3>Front-End Engineering Intern</h3>
+              <p>Soluto Team @ Asurion, LLC</p>
+              <p>May 2019 - July 2019</p>
+            </div>
+            <div class="job-summary">
+              <p>Refactored UI components in a <a href="https://sprint.techcheckup.co/battery/battery_root" target="_blank" rel="noopener noreferrer">web application for Sprint customers</a>, using React that allows them to diagnose phone battery issues and view advice using decision tree logic based on the customer's input. </p>
+            </div>
+          </section>
+        </div>
+      </section>
+      <!-- *********************** LEADERSHIP *********************** -->
+      <section class="leadership">
+        <div class="content-wrap item-details divider">
+          <h2>Leadership</h2>
+          <section class="leadership-item">
+            <div class="leadership-details">
+              <h3>Women @ College of Computing</h3>
+              <p>Georgia Institute of Technology</p>
+              <p>May 2019 - July 2019</p>
+            </div>
+            <div class="leadership-summary">
+              <p>Soluto @ Asurion Refactored UI components in a web application for Sprint customers, using React that allows them to diagnose phone battery issues and view advice using decision tree logic based on the customer's input.</p>
+              <a href="https://sprint.techcheckup.co/battery/battery_root" target="_blank" rel="noopener noreferrer">View the website!</a>
+            </div>
+          </section>
+          <section class="leadership-item">
+            <div class="leadership-details">
+              <h3>HackGT</h3>
+              <p>Georgia Institute of Technology</p>
+              <p>May 2019 - July 2019</p>
+            </div>
+            <div class="leadership-summary">
+              <p>Soluto @ Asurion Refactored UI components in a web application for Sprint customers, using React that allows them to diagnose phone battery issues and view advice using decision tree logic based on the customer's input.</p>
+              <a href="https://sprint.techcheckup.co/battery/battery_root" target="_blank" rel="noopener noreferrer">View the website!</a>
+            </div>
+          </section>
+        </div>
       </section>
       <!-- ****************** EDUCATION ****************** -->
-      <section>
-        <h2>Education</h2>
-        <section>
-          <h3>Georgia Institute of Technology - Atlanta, GA</h3>
-          <p>B.S. Computer Science, August 2017 - May 2021</p>
-          <p>Concentrations: Artificial Intelligence & Media</p>
-          <p>Honors Program Student</p>
-        </section>
+      <section class="education">
+        <div class="content-wrap item-details">
+          <h2>Education</h2>
+          <section>
+            <h3>Georgia Institute of Technology</h3>
+            <p>B.S. Computer Science, 2017 - 2021</p>
+            <p>Concentrations: Artificial Intelligence & Media</p>
+            <p>Honors Program Student</p>
+          </section>
+        </div>
       </section>
       <!-- ***************** CONTACT INFO ***************** -->
-      <footer>
-        <h2>Let's Keep in Touch!</h2>
-        <ul>
-          <li><a href="mailto:helenamakens1013@gmail.com">helenamakens [at] gmail [dot] com</a></li>
-          <li><a href="https://www.linkedin.com/in/helenahmakendengue/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-          <li><a href="https://github.com/HelenaMakendengue" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-        </ul>
+      <footer id="contact-list"> <!-- ***************** AUTO SCROLL FOR CONTACT ME AT THE ABOUT BEGINING PART!!! ***************** -->
+        <div class="content-wrap">
+          <h2>Let's Keep in Touch!</h2>
+          <ul class="contact-list">
+            <li><a href="mailto:helenamakens1013@gmail.com">helenamakens [at] gmail [dot] com</a></li>
+            <li><a href="https://www.linkedin.com/in/helenahmakendengue/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="https://github.com/HelenaMakendengue" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          </ul>
+        </div>
       </footer>
     </main>
   </body>
