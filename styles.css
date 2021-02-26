@@ -21,15 +21,20 @@ body {
 
 img {
     width: 300px;
+    border: 1px solid #00B4D8;
 }
 
 a {
     color: #00B4D8;
-    /* text-decoration: none; */
+}
+
+p {
+    font-size: 16px;
 }
 
 h1 {
     font-size: 55px;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -38,8 +43,7 @@ h2 {
 }
 
 h1, h2 {
-    margin: 0;
-    font-family: 'Newsreader', serif;
+    font-family: 'Playfair Display', serif;
 }
 
 .item-details h3 {
@@ -56,16 +60,17 @@ h1, h2 {
 
 .btn {
     color: white;
-    background: black;
-    padding: 5px;
+    background: #00B4D8;
+    padding: 7px 17px;
     border-radius: 5px;
     display: inline-block;
+    text-decoration: none;
 }
 
 .btn:hover {
-    padding: 5px;
+    padding: 7px 17px;
     border-radius: 5px;
-    background: gray;
+    background: #00d5ff;
 }
 
 .content-wrap {
@@ -73,6 +78,23 @@ h1, h2 {
     width: 85%;
     margin: 0 auto;
     padding: 60px 0;
+    position: relative;
+}
+
+.headshot {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: -80px;
+    border: 7px solid #00B4D8;
+    border-radius: 50%;
+    width: 150px;
+}
+
+.career-title {
+    margin-top: 25px;
 }
 
 .divider > section {
@@ -82,6 +104,10 @@ h1, h2 {
 
 .divider > section:last-of-type {
     border-bottom: none;
+}
+
+.trademark {
+    font-size: 20px;
 }
 
 /* NAVBAR
@@ -165,54 +191,62 @@ footer {
 
 .contact-list a {
     color: white;
-    padding: 15px;
+    padding: 0 15px;
     display: inline-block;
+    font-size: 45px;
+}
+
+.contact-list a:hover {
+    color: #b1afaf;
+    transition: all 100ms ease-in-out;
 }
 
 /* MEDIA QUERIES
 ***********************************************/
 
 @media screen and (min-width: 715px) {
-
     .project-item img {
         float: left;
         margin-right: 20px;
     }
-
     .job-item {
         display: grid;
         grid-template-columns: 1fr 2fr;
         column-gap: 20px;
     }
-
     .leadership-item {
         display: grid;
         grid-template-columns: 1fr 2fr;
         column-gap: 20px;
     }
-
 }
 
 @media screen and (max-width: 714px) {
-
     h1 {
         font-size: 45px;
     }
-
     h2 {
         font-size: 30px;
     }
-
     .contact-wrap {
         padding: 40px auto;
     }
-
+    img {
+        margin-bottom: 10px;
+    }
 }
 
-@media screen and (max-width: 320px) {
-
+@media screen and (max-width: 360px) {
     h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
-
+    h2 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 15px;
+    }
+    img {
+        width: 272px;
+    }
 }

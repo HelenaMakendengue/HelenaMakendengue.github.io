@@ -30,7 +30,7 @@ main {
 a {
     color: lime;
     display: block;
-    border: 2px solid lime;
+    border: 3px solid lime;
     border-radius: 10px;
     padding: 15px 20px;
     max-width: 400px;
