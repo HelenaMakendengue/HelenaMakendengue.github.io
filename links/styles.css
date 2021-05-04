@@ -20,7 +20,7 @@ body {
   min-height: 100vh;
   position: relative;
   background-color: #007fff;
-  color: lime;
+  color: #8efa00;
   font-family: "Arial", sans-serif;
   text-align: center;
 }
@@ -64,10 +64,17 @@ footer {
   padding: 25px;
 }
 
+.profile-pic {
+  border-radius: 50%;
+  width: 125px;
+  height: 125px;
+  margin-bottom: 15px;
+}
+
 .box-link {
-  color: lime;
+  color: #8efa00;
   display: block;
-  border: 3px solid lime;
+  border: 3px solid #8efa00;
   border-radius: 10px;
   padding: 15px 20px;
   max-width: 400px;
@@ -78,7 +85,7 @@ footer {
 
 .featured {
   position: relative;
-  background-color: lime;
+  background-color: #8efa00;
   color: #007fff;
   padding: 20px 20px;
 }
@@ -97,7 +104,7 @@ footer {
 .box-link:hover,
 .featured:hover {
   background-color: #0066cc;
-  color: lime;
+  color: #8efa00;
 }
 
 .socials-list {
@@ -108,7 +115,7 @@ footer {
 }
 
 .socials-list a {
-  color: lime;
+  color: #8efa00;
   text-decoration: none;
   margin: 0px 15px 0px 15px;
 }
